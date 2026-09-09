@@ -1,148 +1,77 @@
 # CampusPulse requirements
 
-Name or team:
+Name or team: Ali Yaarobi
 
-Date:
+Date: 2026-09-09
 
-Status: working draft
+Status: requirements draft for validation; stakeholder approval still pending.
 
-Use the source IDs `S1` to `S6` from the lab handout. Keep every requirement
-short enough to test and trace.
+Source IDs S1–S6 refer to page 2 of the Lab 3 handout. “Release boundary”
+refers to the paragraph following S6. Proposed decisions are recorded in
+Section 8 instead of being presented as stakeholder evidence.
 
 ## 1. Release scope
 
 ### In scope
 
-List at least three capabilities that belong in the first release.
-
--
--
--
+- University sign-in and verified group identities for a browser-based pilot of 5,000 students and 200 groups before Orientation Week.
+- Following groups and viewing their announcements and events on phones and with screen readers.
+- Shared officer drafting, approved publication, and university-wide or members-only visibility.
+- RSVP with private attendance by default, optional disclosure of one's own name, and place/time correction notices.
+- Reporting, moderation, retained report evidence, decision records, and group appeals.
+- Minimum necessary personal data, cancelled-event attendance deletion, and controls against spoofed badges and repeated identical announcements.
 
 ### Out of scope
 
-List at least two explicit exclusions.
+- X-1 [Won't] Native mobile apps; this release is browser-based.
+- X-2 [Won't] Direct messages.
+- X-3 [Won't] External users; access requires university sign-in.
+- X-4 [Won't] Payments.
+- X-5 [Won't] Video hosting.
+- X-6 [Won't] AI recommendations.
 
--
--
+All six exclusions come from the release boundary in the handout.
 
 ## 2. User requirements
 
-Write at least five customer-readable needs. Use one need per line and trace it
-to the stakeholder evidence.
-
-Format: `UR-1 [Must] ... [Source: S1]`
-
-- UR-1 [Must]
-- UR-2 [Must]
-- UR-3 [Must]
-- UR-4 [Must]
-- UR-5 [Must]
+- UR-1 [Must] Students can follow groups and find their permitted announcements and events in one place. [Source: S1; release boundary]
+- UR-2 [Must] Students can RSVP without their names becoming visible to other attendees unless they choose disclosure. [Source: S1, S5]
+- UR-3 [Must] Group officers can collaborate on drafts while reserving publication for approved officers. [Source: S2]
+- UR-4 [Must] Groups can limit content to their members or share it across the university. [Source: S2]
+- UR-5 [Must] Students who RSVP can learn when an event's place or time changes. [Source: S2]
+- UR-6 [Must] Moderators can assess reports, hide content, and explain decisions using retained evidence when a group appeals. [Source: S3]
+- UR-7 [Must] Student Affairs can distinguish checked groups with an official badge for the 5,000-student, 200-group pilot. [Source: S4]
+- UR-8 [Must] The Data Protection Officer can require minimal personal data and deletion of cancelled-event attendance within 30 days. [Source: S5]
+- UR-9 [Must] Students can use the essential event, follow, and RSVP journeys on a phone and with a screen reader. [Source: S1]
+- UR-10 [Must] Students are protected by controls against false official-group claims and repeated announcements from compromised accounts. [Source: S6, S4]
 
 ## 3. Functional requirements
 
-Write at least six observable system behaviours. Start each one with "The
-system shall" and trace it to one or more user requirements.
-
-Format: `FR-1 [Must] The system shall ... [Source: UR-1]`
-
-- FR-1 [Must] The system shall
-- FR-2 [Must] The system shall
-- FR-3 [Must] The system shall
-- FR-4 [Must] The system shall
-- FR-5 [Must] The system shall
-- FR-6 [Must] The system shall
+System requirements are developed in Task 3.
 
 ## 4. Non-functional requirements
 
-Write at least four measurable quality requirements. State what is measured,
-the target, and the condition under which the target applies. If you introduce
-a number that is not in the handout, record it as an assumption or open
-question in Section 8.
-
-Format: `NFR-1 [Must] The system shall ... [Measure: target and condition] [Source: UR-1]`
-
-- NFR-1 [Must] The system shall
-- NFR-2 [Must] The system shall
-- NFR-3 [Should] The system shall
-- NFR-4 [Must] The system shall
+Quality requirements are developed in Task 3.
 
 ## 5. User stories and acceptance criteria
 
-Write at least three stories from different stakeholder viewpoints. Each story
-needs at least two acceptance criteria. Across the set, include a failure,
-permission boundary, privacy rule, or other non-happy path.
-
-### US-1 [Source: S?, UR-?]
-
-As a <role>,
-
-I want <capability>,
-
-so that <benefit>.
-
-Acceptance criteria:
-
--
--
-
-### US-2 [Source: S?, UR-?]
-
-As a <role>,
-
-I want <capability>,
-
-so that <benefit>.
-
-Acceptance criteria:
-
--
--
-
-### US-3 [Source: S?, UR-?]
-
-As a <role>,
-
-I want <capability>,
-
-so that <benefit>.
-
-Acceptance criteria:
-
--
--
+Stories are developed in Task 4.
 
 ## 6. MoSCoW summary
 
-List requirement or story IDs in every category. The Won't category must state
-what is excluded from this release.
-
-- Must:
-- Should:
-- Could:
-- Won't this release:
+Priorities are developed in Task 4.
 
 ## 7. Traceability
 
-Add at least four complete paths. Every row should connect evidence to a user
-requirement, a system requirement, and a user story.
-
-| Stakeholder need | User requirement | System requirement | User story |
-|---|---|---|---|
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
+Traceability is developed in Task 4.
 
 ## 8. Assumptions and open questions
 
-Separate decisions your team has assumed from questions that still need an
-answer.
-
 ### Assumptions
 
-- A1:
+- A1: University-wide means authenticated university users, not the public internet. Group membership and officer approval are distinct permissions; following a group does not grant membership.
 
 ### Open questions
 
-- Q1:
+- Q1: Who supplies authoritative membership records and approves officers? Confirm with S2 and S4; university sign-in alone does not establish either permission.
+- Q2: What is the actual Orientation launch date and expected peak concurrency? The 5,000 students are pilot population, not a stated simultaneous-user load.

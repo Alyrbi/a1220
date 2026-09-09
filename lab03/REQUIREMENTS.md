@@ -4,7 +4,7 @@ Name or team: Ali Yaarobi
 
 Date: 2026-09-09
 
-Status: requirements draft for validation; stakeholder approval still pending.
+Status: reviewed lab specification; proposed decisions and stakeholder questions remain explicit in Section 8.
 
 Source IDs S1–S6 refer to page 2 of the Lab 3 handout. “Release boundary”
 refers to the paragraph following S6. Proposed decisions are recorded in
@@ -51,12 +51,12 @@ All six exclusions come from the release boundary in the handout.
 - FR-2 [Must] The system shall let a signed-in student follow or unfollow a group. [Source: UR-1]
 - FR-3 [Must] The system shall show published, non-hidden announcements and events from followed groups that the student is permitted to view. [Source: UR-1, UR-4]
 - FR-4 [Must] The system shall let approved officers of the same group create and edit a shared announcement or event draft. [Source: UR-3]
-- FR-5 [Must] The system shall reject publication by anyone who is not currently an approved officer of the content's group. [Source: UR-3, UR-10]
+- FR-5 [Must] The system shall permit publication only when the publisher is currently an approved officer of the content's group and that group has active Student Affairs verification. [Source: UR-3, UR-10]
 - FR-6 [Must] The system shall restrict members-only content to current group members, including access through a direct link; following alone shall not grant access. [Source: UR-4]
 - FR-7 [Must] The system shall let an eligible student create or withdraw one RSVP per visible, non-cancelled event and show that student's current RSVP state. [Source: UR-2]
 - FR-8 [Must] The system shall omit each attendee's identity from attendee-facing lists by default and show that identity only after the attendee explicitly opts in for that event; opting out shall remove it again. [Source: UR-2, UR-8]
 - FR-9 [Must] The system shall create an in-service correction notice showing the previous and new place or time for each current RSVP holder still entitled to view the event when an approved officer saves a published event's changed place or time. [Source: UR-5, UR-4]
-- FR-10 [Must] The system shall delete attendance data after an event is cancelled. [Source: UR-8]
+- FR-10 [Must] The system shall delete a cancelled event's RSVP records and linked name-visibility choices from service-managed stores within 30 elapsed days of the recorded cancellation time, without postponement for an appeal. [Source: UR-8]
 - FR-11 [Must] The system shall let a user report content they can view, recording a snapshot of that content and a non-empty report reason. [Source: UR-6, UR-10]
 - FR-12 [Must] The system shall let a moderator hide reported content from ordinary views and direct links while retaining its report snapshot and reason in moderator-only evidence. [Source: UR-6]
 - FR-13 [Must] The system shall record the moderator's identity, content ID, action, timestamp, and reason for each hide, restore, or appeal decision. [Source: UR-6]
@@ -91,6 +91,7 @@ Acceptance criteria:
 - Given I am signed out, accessing the community feed requires university sign-in and returns no community content.
 - Given the NFR-2 phone and screen-reader conditions, I can find an event and operate follow/unfollow with named controls and announced states.
 - Given the populated NFR-1 pilot dataset, the sign-in, follow, and event-view checks retain the expected account and group associations.
+- If NFR-3 is included in release acceptance, the staged workload meets its stated p95 latency and failure-rate limits.
 - If FR-21 is included, two visible upcoming events appear in start-time order when I choose that sort.
 
 ### US-2 [Must] [Source: S1, S5, UR-2, UR-9]
@@ -112,7 +113,7 @@ so that members receive reliable information.
 
 Acceptance criteria:
 
-- Given two approved officers in the same group, one can save a draft and the other can reopen, edit, and publish it; an unapproved or different-group account cannot publish it.
+- Given two approved officers in the same group, one can save a draft and the other can reopen and edit it; publication succeeds only while the group is verified, and an unapproved or different-group account cannot publish it.
 - Given a members-only event, a current member can view it, but a non-member using its direct link cannot; following the group does not change this result.
 - Given a published event with an RSVP holder who remains eligible, saving a changed time or place creates their correction notice with the old and new values. An RSVP holder whose membership was revoked receives no members-only details.
 - If FR-20 is included, a draft preview shows the attendee presentation without publishing a feed item.
@@ -157,7 +158,7 @@ so that the service does not retain unnecessary personal associations.
 Acceptance criteria:
 
 - Given an approved officer cancels an event, new RSVPs are rejected and the event no longer appears in upcoming-event views.
-- Given a cancelled event, its attendance is deleted by the NFR-5 deadline even if a moderation appeal is open; separate content evidence and the decision record remain subject to Q3.
+- Given a cancelled event, its RSVP records and linked name-visibility choices are deleted within 30 elapsed days of recorded cancellation under NFR-5 even if a moderation appeal is open; separate content evidence and the decision record remain subject to Q3.
 - Given an attempt to save an extra personal-profile field such as a phone number, it is rejected under the A5 inventory.
 
 ### US-8 [Must] [Source: S6, UR-10]
@@ -198,7 +199,7 @@ remains part of the browser release.
 | S4: checked badges; S6: impersonation | UR-7, UR-10 | FR-15, FR-16, NFR-4 | US-6 |
 | S4: 5,000 students and 200 groups | UR-7 | NFR-1 | US-1, US-6 |
 | S1: usable feed; S4: pilot; A3 provisional workload | UR-1, UR-7 | NFR-3 | US-1 |
-| S5: delete attendance after cancellation | UR-8 | FR-10, FR-19, NFR-5 | US-7 |
+| S5: delete cancelled-event attendance within 30 days; S3: retain separate appeal evidence | UR-8 | FR-10, FR-19, NFR-5 | US-7 |
 | S5: minimise personal data | UR-8 | FR-18 | US-7 |
 | S6: repeated compromised-account announcements | UR-10 | FR-17 | US-8 |
 | S6: suspicious phishing events can be reported | UR-10, UR-6 | FR-11 | US-8, US-4 |

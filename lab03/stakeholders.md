@@ -56,7 +56,7 @@ planning judgments based on those roles, not additional stakeholder statements.
 
 - Stakeholder: Impersonators and people controlling compromised group accounts, as described by the abuse cases.
 - Stakeholder type: negative stakeholder.
-- Power-interest quadrant: keep informed / monitor (high interest in exploiting the service; low legitimate authority). Here monitoring means observing abuse signals, not sharing defensive information with attackers.
+- Power-interest quadrant: keep informed (monitor for threats: high interest in exploiting the service; low legitimate authority). Here monitoring means observing abuse signals, not sharing defensive information with attackers.
 - Main goal: The attacker's goal is to impersonate a verified group and publish phishing content, or repeatedly post an announcement from a compromised account.
 - Main concern: From the product's viewpoint, false trust in badges and repeated posts could harm students. S6 supplies threat scenarios, not a cooperative interviewee's preferences.
 - How you would involve or monitor this stakeholder: Exercise spoofed-badge and repeated-publication scenarios; monitor rejected duplicate posts and reports without collecting unnecessary personal data.

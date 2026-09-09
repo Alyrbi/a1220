@@ -80,15 +80,128 @@ All six exclusions come from the release boundary in the handout.
 
 ## 5. User stories and acceptance criteria
 
-Stories are developed in Task 4.
+### US-1 [Must] [Source: S1, UR-1, UR-9]
+
+As a student, I want to follow groups and read their permitted events in my browser,
+so that I do not need to check several channels.
+
+Acceptance criteria:
+
+- Given university sign-in succeeds, when I follow a group, its published university-wide content appears in my followed-group feed; after unfollowing, it no longer appears there.
+- Given I am signed out, accessing the community feed requires university sign-in and returns no community content.
+- Given the NFR-2 phone and screen-reader conditions, I can find an event and operate follow/unfollow with named controls and announced states.
+- Given the populated NFR-1 pilot dataset, the sign-in, follow, and event-view checks retain the expected account and group associations.
+- If FR-21 is included, two visible upcoming events appear in start-time order when I choose that sort.
+
+### US-2 [Must] [Source: S1, S5, UR-2, UR-9]
+
+As an attendee, I want to RSVP without disclosing my name by default,
+so that I control who can see my attendance.
+
+Acceptance criteria:
+
+- Given an eligible event and no existing RSVP, submitting twice leaves one RSVP; another attendee sees no name or account identifier from it.
+- Given I opt into showing my name for one event, eligible attendees can see it for that event only; opting out removes it again.
+- Given I withdraw my RSVP, my own status changes to not attending and my name is absent from the attendee-facing list.
+- The RSVP and visibility-choice steps pass the keyboard, screen-reader, and phone checks in NFR-2.
+
+### US-3 [Must] [Source: S2, UR-3, UR-4, UR-5]
+
+As a group officer, I want to share drafts and correct events for the right audience,
+so that members receive reliable information.
+
+Acceptance criteria:
+
+- Given two approved officers in the same group, one can save a draft and the other can reopen, edit, and publish it; an unapproved or different-group account cannot publish it.
+- Given a members-only event, a current member can view it, but a non-member using its direct link cannot; following the group does not change this result.
+- Given a published event with an RSVP holder who remains eligible, saving a changed time or place creates their correction notice with the old and new values. An RSVP holder whose membership was revoked receives no members-only details.
+- If FR-20 is included, a draft preview shows the attendee presentation without publishing a feed item.
+
+### US-4 [Must] [Source: S3, UR-6]
+
+As a moderator, I want to assess reports and hide content without losing evidence,
+so that decisions can be reviewed during appeals.
+
+Acceptance criteria:
+
+- Given a report with a reason, I can see the reported content snapshot and reason; a report with an empty reason is rejected.
+- Given I hide the reported event, ordinary users cannot retrieve it from feeds or a direct link, while its snapshot remains available in moderator-only evidence.
+- A hide, restore, or appeal decision records the responsible moderator, content ID, action, timestamp, and reason; an ordinary user cannot retrieve that evidence.
+
+### US-5 [Must] [Source: S2, S3, UR-3, UR-6]
+
+As an officer of a moderated group, I want to appeal its moderation decision,
+so that the group can contest a mistaken removal.
+
+Acceptance criteria:
+
+- Given a decision on my group's event, I can submit an appeal linked to it and later see the decision outcome.
+- Given a decision for another group, I cannot submit its appeal or inspect its private appeal content; my own group's appeal view exposes neither reporter identity nor moderator-only evidence.
+
+### US-6 [Must] [Source: S4, S6, UR-7, UR-10]
+
+As a Student Affairs representative, I want badges to reflect completed group checks,
+so that students can recognise checked identities during the pilot.
+
+Acceptance criteria:
+
+- Given a group with no verification record, its service badge is absent; recording an approved check as Student Affairs makes the official badge appear, and revocation removes it.
+- Given a group officer tries to set the official verification field, the request is denied and the badge remains unchanged.
+- With the NFR-1 dataset, the pilot's sequential sign-in, follow, publish, and RSVP checks complete without missing records or population-limit rejection.
+
+### US-7 [Must] [Source: S5, UR-8, UR-2]
+
+As the Data Protection Officer, I want attendance deleted after cancellation,
+so that the service does not retain unnecessary personal associations.
+
+Acceptance criteria:
+
+- Given an approved officer cancels an event, new RSVPs are rejected and the event no longer appears in upcoming-event views.
+- Given a cancelled event, its attendance is deleted by the NFR-5 deadline even if a moderation appeal is open; separate content evidence and the decision record remain subject to Q3.
+- Given an attempt to save an extra personal-profile field such as a phone number, it is rejected under the A5 inventory.
+
+### US-8 [Must] [Source: S6, UR-10]
+
+As a student using the service, I want repeated identical announcements blocked,
+so that a compromised account cannot flood my feed with the same post.
+
+Acceptance criteria:
+
+- Given a group successfully publishes an announcement, a second identical publication by either officer of that group within 60 seconds is rejected and creates no additional feed item.
+- After the 60-second window the same content is not rejected by this particular duplicate rule; other publication permissions still apply.
+- Given a suspicious visible event, I can submit its content and a reason for moderator review through FR-11, even if it bypassed the exact-repeat rule.
 
 ## 6. MoSCoW summary
 
-Priorities are developed in Task 4.
+- Must: UR-1, UR-2, UR-3, UR-4, UR-5, UR-6, UR-7, UR-8, UR-9, UR-10; FR-1, FR-2, FR-3, FR-4, FR-5, FR-6, FR-7, FR-8, FR-9, FR-10, FR-11, FR-12, FR-13, FR-14, FR-15, FR-16, FR-17, FR-18, FR-19; NFR-1, NFR-2, NFR-4, NFR-5, NFR-6; US-1, US-2, US-3, US-4, US-5, US-6, US-7, US-8.
+- Should: FR-20 (officer preview), NFR-3 (provisional response-time target).
+- Could: FR-21 (chronological sort).
+- Won't this release: X-1 native mobile apps, X-2 direct messages, X-3 external users, X-4 payments, X-5 video hosting, X-6 AI recommendations.
+
+Optional criteria explicitly labelled “if included” do not make FR-20 or FR-21
+mandatory through a Must story. Mandatory phone and screen-reader support
+remains part of the browser release.
 
 ## 7. Traceability
 
-Traceability is developed in Task 4.
+| Stakeholder need | User requirement | System requirement | User story |
+|---|---|---|---|
+| S1: one place for followed groups; release: university sign-in | UR-1 | FR-1, FR-2, FR-3 | US-1 |
+| S1: less effort finding club events; A6 optional sort | UR-1 | FR-21 | US-1 |
+| S1/S5: control public RSVP identity | UR-2 | FR-7, FR-8, NFR-6 | US-2 |
+| S1: phone and screen-reader access | UR-9 | NFR-2 | US-1, US-2 |
+| S2: shared drafts, approved publishers; A6 optional preview | UR-3 | FR-4, FR-5, FR-20 | US-3 |
+| S2: members-only versus university audience | UR-4 | FR-3, FR-6, NFR-4 | US-3 |
+| S2: inform people who RSVP'd about place/time changes | UR-5, UR-4 | FR-9 | US-3 |
+| S3: reported content, reason, and retained evidence | UR-6 | FR-11, FR-12 | US-4 |
+| S3: accountable decisions and group appeals | UR-6, UR-3 | FR-13, FR-14, NFR-4 | US-4, US-5 |
+| S4: checked badges; S6: impersonation | UR-7, UR-10 | FR-15, FR-16, NFR-4 | US-6 |
+| S4: 5,000 students and 200 groups | UR-7 | NFR-1 | US-1, US-6 |
+| S1: usable feed; S4: pilot; A3 provisional workload | UR-1, UR-7 | NFR-3 | US-1 |
+| S5: delete attendance after cancellation | UR-8 | FR-10, FR-19, NFR-5 | US-7 |
+| S5: minimise personal data | UR-8 | FR-18 | US-7 |
+| S6: repeated compromised-account announcements | UR-10 | FR-17 | US-8 |
+| S6: suspicious phishing events can be reported | UR-10, UR-6 | FR-11 | US-8, US-4 |
 
 ## 8. Assumptions and open questions
 

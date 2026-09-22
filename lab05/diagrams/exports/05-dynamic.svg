@@ -63,140 +63,164 @@
 <!-- s1&#45;&gt;t1 -->
 <g id="edge11" class="edge">
 <title>s1&#45;&gt;t1</title>
-<path fill="none" stroke="#334155" stroke-width="1.3" d="M426.49,-1864C438.41,-1864 665.99,-1864 716.24,-1864"/>
-<polygon fill="#334155" stroke="#334155" stroke-width="1.3" points="716.21,-1866.45 723.21,-1864 716.21,-1861.55 716.21,-1866.45"/>
+<path fill="none" stroke="#334155" stroke-width="1.3" d="M426.49,-1875C438.41,-1875 665.99,-1875 716.24,-1875"/>
+<polygon fill="#334155" stroke="#334155" stroke-width="1.3" points="716.21,-1877.45 723.21,-1875 716.21,-1872.55 716.21,-1877.45"/>
 </g>
 <!-- s2&#45;&gt;t2 -->
 <g id="edge12" class="edge">
 <title>s2&#45;&gt;t2</title>
-<path fill="none" stroke="#334155" stroke-width="1.3" d="M726.49,-1792C738.41,-1792 965.99,-1792 1016.24,-1792"/>
-<polygon fill="#334155" stroke="#334155" stroke-width="1.3" points="1016.21,-1794.45 1023.21,-1792 1016.21,-1789.55 1016.21,-1794.45"/>
+<path fill="none" stroke="#334155" stroke-width="1.3" d="M726.49,-1814C738.41,-1814 965.99,-1814 1016.24,-1814"/>
+<polygon fill="#334155" stroke="#334155" stroke-width="1.3" points="1016.21,-1816.45 1023.21,-1814 1016.21,-1811.55 1016.21,-1816.45"/>
 </g>
 <!-- s3&#45;&gt;t3 -->
 <g id="edge13" class="edge">
 <title>s3&#45;&gt;t3</title>
-<path fill="none" stroke="#0f766e" stroke-width="1.3" stroke-dasharray="5,2" d="M1025.51,-1720C1013.59,-1720 786.01,-1720 735.76,-1720"/>
-<polygon fill="#0f766e" stroke="#0f766e" stroke-width="1.3" points="735.79,-1717.55 728.79,-1720 735.79,-1722.45 735.79,-1717.55"/>
+<path fill="none" stroke="#0f766e" stroke-width="1.3" stroke-dasharray="5,2" d="M1025.51,-1753C1013.59,-1753 786.01,-1753 735.76,-1753"/>
+<polygon fill="#0f766e" stroke="#0f766e" stroke-width="1.3" points="735.79,-1750.55 728.79,-1753 735.79,-1755.45 735.79,-1750.55"/>
 </g>
 <!-- s4&#45;&gt;t4 -->
 <g id="edge14" class="edge">
 <title>s4&#45;&gt;t4</title>
-<path fill="none" stroke="#0f766e" stroke-width="1.3" stroke-dasharray="5,2" d="M725.51,-1648C713.59,-1648 486.01,-1648 435.76,-1648"/>
-<polygon fill="#0f766e" stroke="#0f766e" stroke-width="1.3" points="435.79,-1645.55 428.79,-1648 435.79,-1650.45 435.79,-1645.55"/>
+<path fill="none" stroke="#0f766e" stroke-width="1.3" stroke-dasharray="5,2" d="M725.51,-1692C713.59,-1692 486.01,-1692 435.76,-1692"/>
+<polygon fill="#0f766e" stroke="#0f766e" stroke-width="1.3" points="435.79,-1689.55 428.79,-1692 435.79,-1694.45 435.79,-1689.55"/>
 </g>
 <!-- s5&#45;&gt;t5 -->
 <g id="edge15" class="edge">
 <title>s5&#45;&gt;t5</title>
-<path fill="none" stroke="#334155" stroke-width="1.3" d="M426.65,-1576C452.22,-1576 1221.49,-1576 1316.42,-1576"/>
-<polygon fill="#334155" stroke="#334155" stroke-width="1.3" points="1316.4,-1578.45 1323.4,-1576 1316.4,-1573.55 1316.4,-1578.45"/>
+<path fill="none" stroke="#334155" stroke-width="1.3" d="M426.65,-1631C452.22,-1631 1221.49,-1631 1316.42,-1631"/>
+<polygon fill="#334155" stroke="#334155" stroke-width="1.3" points="1316.4,-1633.45 1323.4,-1631 1316.4,-1628.55 1316.4,-1633.45"/>
 </g>
 <!-- s6&#45;&gt;t6 -->
 <g id="edge16" class="edge">
 <title>s6&#45;&gt;t6</title>
-<path fill="none" stroke="#334155" stroke-width="1.3" d="M1326.49,-1504C1338.41,-1504 1565.99,-1504 1616.24,-1504"/>
-<polygon fill="#334155" stroke="#334155" stroke-width="1.3" points="1616.21,-1506.45 1623.21,-1504 1616.21,-1501.55 1616.21,-1506.45"/>
+<path fill="none" stroke="#334155" stroke-width="1.3" d="M1326.49,-1570C1338.41,-1570 1565.99,-1570 1616.24,-1570"/>
+<polygon fill="#334155" stroke="#334155" stroke-width="1.3" points="1616.21,-1572.45 1623.21,-1570 1616.21,-1567.55 1616.21,-1572.45"/>
 </g>
 <!-- s7&#45;&gt;t7 -->
 <g id="edge17" class="edge">
 <title>s7&#45;&gt;t7</title>
-<path fill="none" stroke="#334155" stroke-width="1.3" d="M1626.49,-1432C1638.41,-1432 1865.99,-1432 1916.24,-1432"/>
-<polygon fill="#334155" stroke="#334155" stroke-width="1.3" points="1916.21,-1434.45 1923.21,-1432 1916.21,-1429.55 1916.21,-1434.45"/>
+<path fill="none" stroke="#334155" stroke-width="1.3" d="M1626.49,-1509C1638.41,-1509 1865.99,-1509 1916.24,-1509"/>
+<polygon fill="#334155" stroke="#334155" stroke-width="1.3" points="1916.21,-1511.45 1923.21,-1509 1916.21,-1506.55 1916.21,-1511.45"/>
 </g>
 <!-- s8&#45;&gt;t8 -->
 <g id="edge18" class="edge">
 <title>s8&#45;&gt;t8</title>
-<path fill="none" stroke="#0f766e" stroke-width="1.3" stroke-dasharray="5,2" d="M1925.51,-1360C1913.59,-1360 1686.01,-1360 1635.76,-1360"/>
-<polygon fill="#0f766e" stroke="#0f766e" stroke-width="1.3" points="1635.79,-1357.55 1628.79,-1360 1635.79,-1362.45 1635.79,-1357.55"/>
+<path fill="none" stroke="#0f766e" stroke-width="1.3" stroke-dasharray="5,2" d="M1925.51,-1448C1913.59,-1448 1686.01,-1448 1635.76,-1448"/>
+<polygon fill="#0f766e" stroke="#0f766e" stroke-width="1.3" points="1635.79,-1445.55 1628.79,-1448 1635.79,-1450.45 1635.79,-1445.55"/>
 </g>
 <!-- s9&#45;&gt;t9 -->
 <g id="edge19" class="edge">
 <title>s9&#45;&gt;t9</title>
-<path fill="none" stroke="#0f766e" stroke-width="1.3" stroke-dasharray="5,2" d="M1625.51,-1288C1613.59,-1288 1386.01,-1288 1335.76,-1288"/>
-<polygon fill="#0f766e" stroke="#0f766e" stroke-width="1.3" points="1335.79,-1285.55 1328.79,-1288 1335.79,-1290.45 1335.79,-1285.55"/>
+<path fill="none" stroke="#0f766e" stroke-width="1.3" stroke-dasharray="5,2" d="M1625.51,-1387C1613.59,-1387 1386.01,-1387 1335.76,-1387"/>
+<polygon fill="#0f766e" stroke="#0f766e" stroke-width="1.3" points="1335.79,-1384.55 1328.79,-1387 1335.79,-1389.45 1335.79,-1384.55"/>
 </g>
 <!-- s10&#45;&gt;t10 -->
 <g id="edge20" class="edge">
 <title>s10&#45;&gt;t10</title>
-<path fill="none" stroke="#334155" stroke-width="1.3" d="M1326.49,-1216C1338.41,-1216 1565.99,-1216 1616.24,-1216"/>
-<polygon fill="#334155" stroke="#334155" stroke-width="1.3" points="1616.21,-1218.45 1623.21,-1216 1616.21,-1213.55 1616.21,-1218.45"/>
+<path fill="none" stroke="#334155" stroke-width="1.3" d="M1326.49,-1326C1338.41,-1326 1565.99,-1326 1616.24,-1326"/>
+<polygon fill="#334155" stroke="#334155" stroke-width="1.3" points="1616.21,-1328.45 1623.21,-1326 1616.21,-1323.55 1616.21,-1328.45"/>
 </g>
 <!-- s11&#45;&gt;t11 -->
 <g id="edge21" class="edge">
 <title>s11&#45;&gt;t11</title>
-<path fill="none" stroke="#334155" stroke-width="1.3" d="M1626.49,-1144C1638.41,-1144 1865.99,-1144 1916.24,-1144"/>
-<polygon fill="#334155" stroke="#334155" stroke-width="1.3" points="1916.21,-1146.45 1923.21,-1144 1916.21,-1141.55 1916.21,-1146.45"/>
+<path fill="none" stroke="#334155" stroke-width="1.3" d="M1626.49,-1265C1638.41,-1265 1865.99,-1265 1916.24,-1265"/>
+<polygon fill="#334155" stroke="#334155" stroke-width="1.3" points="1916.21,-1267.45 1923.21,-1265 1916.21,-1262.55 1916.21,-1267.45"/>
 </g>
 <!-- s12&#45;&gt;t12 -->
 <g id="edge22" class="edge">
 <title>s12&#45;&gt;t12</title>
-<path fill="none" stroke="#0f766e" stroke-width="1.3" stroke-dasharray="5,2" d="M1925.51,-1072C1913.59,-1072 1686.01,-1072 1635.76,-1072"/>
-<polygon fill="#0f766e" stroke="#0f766e" stroke-width="1.3" points="1635.79,-1069.55 1628.79,-1072 1635.79,-1074.45 1635.79,-1069.55"/>
+<path fill="none" stroke="#0f766e" stroke-width="1.3" stroke-dasharray="5,2" d="M1925.51,-1204C1913.59,-1204 1686.01,-1204 1635.76,-1204"/>
+<polygon fill="#0f766e" stroke="#0f766e" stroke-width="1.3" points="1635.79,-1201.55 1628.79,-1204 1635.79,-1206.45 1635.79,-1201.55"/>
 </g>
 <!-- s13&#45;&gt;t13 -->
 <g id="edge23" class="edge">
 <title>s13&#45;&gt;t13</title>
-<path fill="none" stroke="#0f766e" stroke-width="1.3" stroke-dasharray="5,2" d="M1625.51,-1000C1613.59,-1000 1386.01,-1000 1335.76,-1000"/>
-<polygon fill="#0f766e" stroke="#0f766e" stroke-width="1.3" points="1335.79,-997.55 1328.79,-1000 1335.79,-1002.45 1335.79,-997.55"/>
+<path fill="none" stroke="#0f766e" stroke-width="1.3" stroke-dasharray="5,2" d="M1625.51,-1143C1613.59,-1143 1386.01,-1143 1335.76,-1143"/>
+<polygon fill="#0f766e" stroke="#0f766e" stroke-width="1.3" points="1335.79,-1140.55 1328.79,-1143 1335.79,-1145.45 1335.79,-1140.55"/>
 </g>
 <!-- s14&#45;&gt;t14 -->
 <g id="edge24" class="edge">
 <title>s14&#45;&gt;t14</title>
-<path fill="none" stroke="#334155" stroke-width="1.3" d="M1326.49,-928C1338.41,-928 1565.99,-928 1616.24,-928"/>
-<polygon fill="#334155" stroke="#334155" stroke-width="1.3" points="1616.21,-930.45 1623.21,-928 1616.21,-925.55 1616.21,-930.45"/>
+<path fill="none" stroke="#334155" stroke-width="1.3" d="M1326.49,-1082C1338.41,-1082 1565.99,-1082 1616.24,-1082"/>
+<polygon fill="#334155" stroke="#334155" stroke-width="1.3" points="1616.21,-1084.45 1623.21,-1082 1616.21,-1079.55 1616.21,-1084.45"/>
 </g>
 <!-- s15&#45;&gt;t15 -->
 <g id="edge25" class="edge">
 <title>s15&#45;&gt;t15</title>
-<path fill="none" stroke="#334155" stroke-width="1.3" d="M1626.49,-856C1638.41,-856 1865.99,-856 1916.24,-856"/>
-<polygon fill="#334155" stroke="#334155" stroke-width="1.3" points="1916.21,-858.45 1923.21,-856 1916.21,-853.55 1916.21,-858.45"/>
+<path fill="none" stroke="#334155" stroke-width="1.3" d="M1626.49,-1021C1638.41,-1021 1865.99,-1021 1916.24,-1021"/>
+<polygon fill="#334155" stroke="#334155" stroke-width="1.3" points="1916.21,-1023.45 1923.21,-1021 1916.21,-1018.55 1916.21,-1023.45"/>
 </g>
 <!-- s16&#45;&gt;t16 -->
 <g id="edge26" class="edge">
 <title>s16&#45;&gt;t16</title>
-<path fill="none" stroke="#0f766e" stroke-width="1.3" stroke-dasharray="5,2" d="M1925.51,-784C1913.59,-784 1686.01,-784 1635.76,-784"/>
-<polygon fill="#0f766e" stroke="#0f766e" stroke-width="1.3" points="1635.79,-781.55 1628.79,-784 1635.79,-786.45 1635.79,-781.55"/>
+<path fill="none" stroke="#0f766e" stroke-width="1.3" stroke-dasharray="5,2" d="M1925.51,-960C1913.59,-960 1686.01,-960 1635.76,-960"/>
+<polygon fill="#0f766e" stroke="#0f766e" stroke-width="1.3" points="1635.79,-957.55 1628.79,-960 1635.79,-962.45 1635.79,-957.55"/>
 </g>
 <!-- s17&#45;&gt;t17 -->
 <g id="edge27" class="edge">
 <title>s17&#45;&gt;t17</title>
-<path fill="none" stroke="#0f766e" stroke-width="1.3" stroke-dasharray="5,2" d="M1625.51,-712C1613.59,-712 1386.01,-712 1335.76,-712"/>
-<polygon fill="#0f766e" stroke="#0f766e" stroke-width="1.3" points="1335.79,-709.55 1328.79,-712 1335.79,-714.45 1335.79,-709.55"/>
+<path fill="none" stroke="#0f766e" stroke-width="1.3" stroke-dasharray="5,2" d="M1625.51,-899C1613.59,-899 1386.01,-899 1335.76,-899"/>
+<polygon fill="#0f766e" stroke="#0f766e" stroke-width="1.3" points="1335.79,-896.55 1328.79,-899 1335.79,-901.45 1335.79,-896.55"/>
 </g>
 <!-- s18&#45;&gt;t18 -->
 <g id="edge28" class="edge">
 <title>s18&#45;&gt;t18</title>
-<path fill="none" stroke="#334155" stroke-width="1.3" d="M1326.65,-640C1352.22,-640 2121.49,-640 2216.42,-640"/>
-<polygon fill="#334155" stroke="#334155" stroke-width="1.3" points="2216.4,-642.45 2223.4,-640 2216.4,-637.55 2216.4,-642.45"/>
+<path fill="none" stroke="#334155" stroke-width="1.3" d="M1326.49,-838C1338.41,-838 1565.99,-838 1616.24,-838"/>
+<polygon fill="#334155" stroke="#334155" stroke-width="1.3" points="1616.21,-840.45 1623.21,-838 1616.21,-835.55 1616.21,-840.45"/>
 </g>
 <!-- s19&#45;&gt;t19 -->
 <g id="edge29" class="edge">
 <title>s19&#45;&gt;t19</title>
-<path fill="none" stroke="#334155" stroke-width="1.3" d="M2226.49,-568C2238.41,-568 2465.99,-568 2516.24,-568"/>
-<polygon fill="#334155" stroke="#334155" stroke-width="1.3" points="2516.21,-570.45 2523.21,-568 2516.21,-565.55 2516.21,-570.45"/>
+<path fill="none" stroke="#334155" stroke-width="1.3" d="M1626.49,-777C1638.41,-777 1865.99,-777 1916.24,-777"/>
+<polygon fill="#334155" stroke="#334155" stroke-width="1.3" points="1916.21,-779.45 1923.21,-777 1916.21,-774.55 1916.21,-779.45"/>
 </g>
 <!-- s20&#45;&gt;t20 -->
 <g id="edge30" class="edge">
 <title>s20&#45;&gt;t20</title>
-<path fill="none" stroke="#0f766e" stroke-width="1.3" stroke-dasharray="5,2" d="M2525.51,-496C2513.59,-496 2286.01,-496 2235.76,-496"/>
-<polygon fill="#0f766e" stroke="#0f766e" stroke-width="1.3" points="2235.79,-493.55 2228.79,-496 2235.79,-498.45 2235.79,-493.55"/>
+<path fill="none" stroke="#0f766e" stroke-width="1.3" stroke-dasharray="5,2" d="M1925.51,-716C1913.59,-716 1686.01,-716 1635.76,-716"/>
+<polygon fill="#0f766e" stroke="#0f766e" stroke-width="1.3" points="1635.79,-713.55 1628.79,-716 1635.79,-718.45 1635.79,-713.55"/>
 </g>
 <!-- s21&#45;&gt;t21 -->
 <g id="edge31" class="edge">
 <title>s21&#45;&gt;t21</title>
-<path fill="none" stroke="#0f766e" stroke-width="1.3" stroke-dasharray="5,2" d="M2225.35,-424C2199.78,-424 1430.51,-424 1335.58,-424"/>
-<polygon fill="#0f766e" stroke="#0f766e" stroke-width="1.3" points="1335.6,-421.55 1328.6,-424 1335.6,-426.45 1335.6,-421.55"/>
+<path fill="none" stroke="#0f766e" stroke-width="1.3" stroke-dasharray="5,2" d="M1625.51,-655C1613.59,-655 1386.01,-655 1335.76,-655"/>
+<polygon fill="#0f766e" stroke="#0f766e" stroke-width="1.3" points="1335.79,-652.55 1328.79,-655 1335.79,-657.45 1335.79,-652.55"/>
 </g>
 <!-- s22&#45;&gt;t22 -->
 <g id="edge32" class="edge">
 <title>s22&#45;&gt;t22</title>
-<path fill="none" stroke="#0f766e" stroke-width="1.3" stroke-dasharray="5,2" d="M1325.35,-352C1299.78,-352 530.51,-352 435.58,-352"/>
-<polygon fill="#0f766e" stroke="#0f766e" stroke-width="1.3" points="435.6,-349.55 428.6,-352 435.6,-354.45 435.6,-349.55"/>
+<path fill="none" stroke="#334155" stroke-width="1.3" d="M1326.65,-594C1352.22,-594 2121.49,-594 2216.42,-594"/>
+<polygon fill="#334155" stroke="#334155" stroke-width="1.3" points="2216.4,-596.45 2223.4,-594 2216.4,-591.55 2216.4,-596.45"/>
 </g>
 <!-- s23&#45;&gt;t23 -->
 <g id="edge33" class="edge">
 <title>s23&#45;&gt;t23</title>
-<path fill="none" stroke="#0f766e" stroke-width="1.3" stroke-dasharray="5,2" d="M425.51,-280C413.59,-280 186.01,-280 135.76,-280"/>
-<polygon fill="#0f766e" stroke="#0f766e" stroke-width="1.3" points="135.79,-277.55 128.79,-280 135.79,-282.45 135.79,-277.55"/>
+<path fill="none" stroke="#334155" stroke-width="1.3" d="M2226.49,-533C2238.41,-533 2465.99,-533 2516.24,-533"/>
+<polygon fill="#334155" stroke="#334155" stroke-width="1.3" points="2516.21,-535.45 2523.21,-533 2516.21,-530.55 2516.21,-535.45"/>
+</g>
+<!-- s24&#45;&gt;t24 -->
+<g id="edge34" class="edge">
+<title>s24&#45;&gt;t24</title>
+<path fill="none" stroke="#0f766e" stroke-width="1.3" stroke-dasharray="5,2" d="M2525.51,-472C2513.59,-472 2286.01,-472 2235.76,-472"/>
+<polygon fill="#0f766e" stroke="#0f766e" stroke-width="1.3" points="2235.79,-469.55 2228.79,-472 2235.79,-474.45 2235.79,-469.55"/>
+</g>
+<!-- s25&#45;&gt;t25 -->
+<g id="edge35" class="edge">
+<title>s25&#45;&gt;t25</title>
+<path fill="none" stroke="#0f766e" stroke-width="1.3" stroke-dasharray="5,2" d="M2225.35,-411C2199.78,-411 1430.51,-411 1335.58,-411"/>
+<polygon fill="#0f766e" stroke="#0f766e" stroke-width="1.3" points="1335.6,-408.55 1328.6,-411 1335.6,-413.45 1335.6,-408.55"/>
+</g>
+<!-- s26&#45;&gt;t26 -->
+<g id="edge36" class="edge">
+<title>s26&#45;&gt;t26</title>
+<path fill="none" stroke="#0f766e" stroke-width="1.3" stroke-dasharray="5,2" d="M1325.35,-350C1299.78,-350 530.51,-350 435.58,-350"/>
+<polygon fill="#0f766e" stroke="#0f766e" stroke-width="1.3" points="435.6,-347.55 428.6,-350 435.6,-352.45 435.6,-347.55"/>
+</g>
+<!-- s27&#45;&gt;t27 -->
+<g id="edge37" class="edge">
+<title>s27&#45;&gt;t27</title>
+<path fill="none" stroke="#0f766e" stroke-width="1.3" stroke-dasharray="5,2" d="M425.51,-289C413.59,-289 186.01,-289 135.76,-289"/>
+<polygon fill="#0f766e" stroke="#0f766e" stroke-width="1.3" points="135.79,-286.55 128.79,-289 135.79,-291.45 135.79,-286.55"/>
 </g>
 <!-- title -->
 <g id="node1" class="node">
@@ -208,20 +232,20 @@
 <!-- pre -->
 <g id="node2" class="node">
 <title>pre</title>
-<polygon fill="#fffbeb" stroke="#d97706" points="1679,-2197.5 967,-2197.5 967,-2144.5 1685,-2144.5 1685,-2191.5 1679,-2197.5"/>
-<polyline fill="none" stroke="#d97706" points="1679,-2197.5 1679,-2191.5"/>
-<polyline fill="none" stroke="#d97706" points="1685,-2191.5 1679,-2191.5"/>
+<polygon fill="#fffbeb" stroke="#d97706" points="1728.12,-2197.5 917.87,-2197.5 917.87,-2144.5 1734.12,-2144.5 1734.12,-2191.5 1728.12,-2197.5"/>
+<polyline fill="none" stroke="#d97706" points="1728.12,-2197.5 1728.12,-2191.5"/>
+<polyline fill="none" stroke="#d97706" points="1734.12,-2191.5 1728.12,-2191.5"/>
 <text xml:space="preserve" text-anchor="middle" x="1326" y="-2180.2" font-family="Helvetica,sans-Serif" font-size="14.00">BEFORE: W17 — Build a tiny game · owner S10 · published · capacity 3 · S21/S22 hold seats.</text>
-<text xml:space="preserve" text-anchor="middle" x="1326" y="-2165.2" font-family="Helvetica,sans-Serif" font-size="14.00">Ari (S23, ari@example.invalid) is signed in and has no reservation. Storage works; nobody else acts during this trace.</text>
-<text xml:space="preserve" text-anchor="middle" x="1326" y="-2150.2" font-family="Helvetica,sans-Serif" font-size="14.00">W17, S10, S21, S22, S23 and R23 are readable aliases for opaque IDs.</text>
+<text xml:space="preserve" text-anchor="middle" x="1326" y="-2165.2" font-family="Helvetica,sans-Serif" font-size="14.00">Ari (S23, ari@example.invalid) is signed in, has no reservation, and clicks Reserve. Storage works; nobody else acts during this trace.</text>
+<text xml:space="preserve" text-anchor="middle" x="1326" y="-2150.2" font-family="Helvetica,sans-Serif" font-size="14.00">W17 and R23 are readable aliases for generated IDs; student IDs are supplied by Campus Identity.</text>
 </g>
 <!-- web -->
 <g id="node3" class="node">
 <title>web</title>
 <path fill="#eaf2ff" stroke="#2563eb" d="M240,-2076.6C240,-2076.6 12,-2076.6 12,-2076.6 6,-2076.6 0,-2070.6 0,-2064.6 0,-2064.6 0,-2027.4 0,-2027.4 0,-2021.4 6,-2015.4 12,-2015.4 12,-2015.4 240,-2015.4 240,-2015.4 246,-2015.4 252,-2021.4 252,-2027.4 252,-2027.4 252,-2064.6 252,-2064.6 252,-2070.6 246,-2076.6 240,-2076.6"/>
 <text xml:space="preserve" text-anchor="middle" x="126" y="-2053.9" font-family="Helvetica,sans-Serif" font-size="13.00">Web UI</text>
-<text xml:space="preserve" text-anchor="middle" x="126" y="-2040.4" font-family="Helvetica,sans-Serif" font-size="13.00">Container · browser</text>
-<text xml:space="preserve" text-anchor="middle" x="126" y="-2026.9" font-family="Helvetica,sans-Serif" font-size="13.00">HTML / CSS / JavaScript</text>
+<text xml:space="preserve" text-anchor="middle" x="126" y="-2040.4" font-family="Helvetica,sans-Serif" font-size="13.00">Container · HTML/CSS/JS</text>
+<text xml:space="preserve" text-anchor="middle" x="126" y="-2026.9" font-family="Helvetica,sans-Serif" font-size="13.00">Show workshops and results</text>
 </g>
 <!-- top0 -->
 <!-- bottom0 -->
@@ -230,8 +254,8 @@
 <title>endpoints</title>
 <path fill="#eaf2ff" stroke="#2563eb" d="M540,-2076.6C540,-2076.6 312,-2076.6 312,-2076.6 306,-2076.6 300,-2070.6 300,-2064.6 300,-2064.6 300,-2027.4 300,-2027.4 300,-2021.4 306,-2015.4 312,-2015.4 312,-2015.4 540,-2015.4 540,-2015.4 546,-2015.4 552,-2021.4 552,-2027.4 552,-2027.4 552,-2064.6 552,-2064.6 552,-2070.6 546,-2076.6 540,-2076.6"/>
 <text xml:space="preserve" text-anchor="middle" x="426" y="-2053.9" font-family="Helvetica,sans-Serif" font-size="13.00">Board Endpoints</text>
-<text xml:space="preserve" text-anchor="middle" x="426" y="-2040.4" font-family="Helvetica,sans-Serif" font-size="13.00">Component · Board API</text>
-<text xml:space="preserve" text-anchor="middle" x="426" y="-2026.9" font-family="Helvetica,sans-Serif" font-size="13.00">Python / FastAPI routes</text>
+<text xml:space="preserve" text-anchor="middle" x="426" y="-2040.4" font-family="Helvetica,sans-Serif" font-size="13.00">Component · Python/FastAPI</text>
+<text xml:space="preserve" text-anchor="middle" x="426" y="-2026.9" font-family="Helvetica,sans-Serif" font-size="13.00">Verify, route and return results</text>
 </g>
 <!-- top1 -->
 <!-- bottom1 -->
@@ -240,8 +264,8 @@
 <title>identity_gateway</title>
 <path fill="#eaf2ff" stroke="#2563eb" d="M840,-2076.6C840,-2076.6 612,-2076.6 612,-2076.6 606,-2076.6 600,-2070.6 600,-2064.6 600,-2064.6 600,-2027.4 600,-2027.4 600,-2021.4 606,-2015.4 612,-2015.4 612,-2015.4 840,-2015.4 840,-2015.4 846,-2015.4 852,-2021.4 852,-2027.4 852,-2027.4 852,-2064.6 852,-2064.6 852,-2070.6 846,-2076.6 840,-2076.6"/>
 <text xml:space="preserve" text-anchor="middle" x="726" y="-2053.9" font-family="Helvetica,sans-Serif" font-size="13.00">Identity Gateway</text>
-<text xml:space="preserve" text-anchor="middle" x="726" y="-2040.4" font-family="Helvetica,sans-Serif" font-size="13.00">Component · Board API</text>
-<text xml:space="preserve" text-anchor="middle" x="726" y="-2026.9" font-family="Helvetica,sans-Serif" font-size="13.00">Python HTTPS adapter</text>
+<text xml:space="preserve" text-anchor="middle" x="726" y="-2040.4" font-family="Helvetica,sans-Serif" font-size="13.00">Component · Python adapter</text>
+<text xml:space="preserve" text-anchor="middle" x="726" y="-2026.9" font-family="Helvetica,sans-Serif" font-size="13.00">Verify credentials via HTTPS</text>
 </g>
 <!-- top2 -->
 <!-- bottom2 -->
@@ -258,10 +282,10 @@
 <!-- reservation -->
 <g id="node15" class="node">
 <title>reservation</title>
-<path fill="#dbeafe" stroke="#2563eb" d="M1440,-2076.6C1440,-2076.6 1212,-2076.6 1212,-2076.6 1206,-2076.6 1200,-2070.6 1200,-2064.6 1200,-2064.6 1200,-2027.4 1200,-2027.4 1200,-2021.4 1206,-2015.4 1212,-2015.4 1212,-2015.4 1440,-2015.4 1440,-2015.4 1446,-2015.4 1452,-2021.4 1452,-2027.4 1452,-2027.4 1452,-2064.6 1452,-2064.6 1452,-2070.6 1446,-2076.6 1440,-2076.6"/>
+<path fill="#eaf2ff" stroke="#2563eb" d="M1440,-2076.6C1440,-2076.6 1212,-2076.6 1212,-2076.6 1206,-2076.6 1200,-2070.6 1200,-2064.6 1200,-2064.6 1200,-2027.4 1200,-2027.4 1200,-2021.4 1206,-2015.4 1212,-2015.4 1212,-2015.4 1440,-2015.4 1440,-2015.4 1446,-2015.4 1452,-2021.4 1452,-2027.4 1452,-2027.4 1452,-2064.6 1452,-2064.6 1452,-2070.6 1446,-2076.6 1440,-2076.6"/>
 <text xml:space="preserve" text-anchor="middle" x="1326" y="-2053.9" font-family="Helvetica,sans-Serif" font-size="13.00">Reservation Rules</text>
-<text xml:space="preserve" text-anchor="middle" x="1326" y="-2040.4" font-family="Helvetica,sans-Serif" font-size="13.00">Component · Board API</text>
-<text xml:space="preserve" text-anchor="middle" x="1326" y="-2026.9" font-family="Helvetica,sans-Serif" font-size="13.00">Python reservation service</text>
+<text xml:space="preserve" text-anchor="middle" x="1326" y="-2040.4" font-family="Helvetica,sans-Serif" font-size="13.00">Component · Python service</text>
+<text xml:space="preserve" text-anchor="middle" x="1326" y="-2026.9" font-family="Helvetica,sans-Serif" font-size="13.00">Enforce seat rules; coordinate mail</text>
 </g>
 <!-- top4 -->
 <!-- bottom4 -->
@@ -270,8 +294,8 @@
 <title>repository</title>
 <path fill="#eaf2ff" stroke="#2563eb" d="M1740,-2076.6C1740,-2076.6 1512,-2076.6 1512,-2076.6 1506,-2076.6 1500,-2070.6 1500,-2064.6 1500,-2064.6 1500,-2027.4 1500,-2027.4 1500,-2021.4 1506,-2015.4 1512,-2015.4 1512,-2015.4 1740,-2015.4 1740,-2015.4 1746,-2015.4 1752,-2021.4 1752,-2027.4 1752,-2027.4 1752,-2064.6 1752,-2064.6 1752,-2070.6 1746,-2076.6 1740,-2076.6"/>
 <text xml:space="preserve" text-anchor="middle" x="1626" y="-2053.9" font-family="Helvetica,sans-Serif" font-size="13.00">Board Repository</text>
-<text xml:space="preserve" text-anchor="middle" x="1626" y="-2040.4" font-family="Helvetica,sans-Serif" font-size="13.00">Component · Board API</text>
-<text xml:space="preserve" text-anchor="middle" x="1626" y="-2026.9" font-family="Helvetica,sans-Serif" font-size="13.00">Python / psycopg</text>
+<text xml:space="preserve" text-anchor="middle" x="1626" y="-2040.4" font-family="Helvetica,sans-Serif" font-size="13.00">Component · Python/psycopg</text>
+<text xml:space="preserve" text-anchor="middle" x="1626" y="-2026.9" font-family="Helvetica,sans-Serif" font-size="13.00">Provide transactional storage</text>
 </g>
 <!-- top5 -->
 <!-- bottom5 -->
@@ -281,7 +305,7 @@
 <path fill="#dcfce7" stroke="#2563eb" d="M2040,-2076.6C2040,-2076.6 1812,-2076.6 1812,-2076.6 1806,-2076.6 1800,-2070.6 1800,-2064.6 1800,-2064.6 1800,-2027.4 1800,-2027.4 1800,-2021.4 1806,-2015.4 1812,-2015.4 1812,-2015.4 2040,-2015.4 2040,-2015.4 2046,-2015.4 2052,-2021.4 2052,-2027.4 2052,-2027.4 2052,-2064.6 2052,-2064.6 2052,-2070.6 2046,-2076.6 2040,-2076.6"/>
 <text xml:space="preserve" text-anchor="middle" x="1926" y="-2053.9" font-family="Helvetica,sans-Serif" font-size="13.00">Board Database</text>
 <text xml:space="preserve" text-anchor="middle" x="1926" y="-2040.4" font-family="Helvetica,sans-Serif" font-size="13.00">Container · PostgreSQL</text>
-<text xml:space="preserve" text-anchor="middle" x="1926" y="-2026.9" font-family="Helvetica,sans-Serif" font-size="13.00">Persist workshops / seats</text>
+<text xml:space="preserve" text-anchor="middle" x="1926" y="-2026.9" font-family="Helvetica,sans-Serif" font-size="13.00">Persist workshops and reservations</text>
 </g>
 <!-- top6 -->
 <!-- bottom6 -->
@@ -290,8 +314,8 @@
 <title>mail_gateway</title>
 <path fill="#eaf2ff" stroke="#2563eb" d="M2340,-2076.6C2340,-2076.6 2112,-2076.6 2112,-2076.6 2106,-2076.6 2100,-2070.6 2100,-2064.6 2100,-2064.6 2100,-2027.4 2100,-2027.4 2100,-2021.4 2106,-2015.4 2112,-2015.4 2112,-2015.4 2340,-2015.4 2340,-2015.4 2346,-2015.4 2352,-2021.4 2352,-2027.4 2352,-2027.4 2352,-2064.6 2352,-2064.6 2352,-2070.6 2346,-2076.6 2340,-2076.6"/>
 <text xml:space="preserve" text-anchor="middle" x="2226" y="-2053.9" font-family="Helvetica,sans-Serif" font-size="13.00">Mail Gateway</text>
-<text xml:space="preserve" text-anchor="middle" x="2226" y="-2040.4" font-family="Helvetica,sans-Serif" font-size="13.00">Component · Board API</text>
-<text xml:space="preserve" text-anchor="middle" x="2226" y="-2026.9" font-family="Helvetica,sans-Serif" font-size="13.00">Python HTTPS adapter</text>
+<text xml:space="preserve" text-anchor="middle" x="2226" y="-2040.4" font-family="Helvetica,sans-Serif" font-size="13.00">Component · Python adapter</text>
+<text xml:space="preserve" text-anchor="middle" x="2226" y="-2026.9" font-family="Helvetica,sans-Serif" font-size="13.00">Request confirmation via HTTPS</text>
 </g>
 <!-- top7 -->
 <!-- bottom7 -->
@@ -320,209 +344,242 @@
 <!-- m1 -->
 <g id="node35" class="node">
 <title>m1</title>
-<path fill="#eaf2ff" stroke="none" d="M622.62,-1909C622.62,-1909 529.38,-1909 529.38,-1909 523.38,-1909 517.38,-1903 517.38,-1897 517.38,-1897 517.38,-1885 517.38,-1885 517.38,-1879 523.38,-1873 529.38,-1873 529.38,-1873 622.62,-1873 622.62,-1873 628.62,-1873 634.62,-1879 634.62,-1885 634.62,-1885 634.62,-1897 634.62,-1897 634.62,-1903 628.62,-1909 622.62,-1909"/>
-<text xml:space="preserve" text-anchor="middle" x="576" y="-1892.35" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">2. verify(credential)</text>
-<text xml:space="preserve" text-anchor="middle" x="576" y="-1879.6" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">Python call</text>
+<path fill="#eaf2ff" stroke="none" d="M622.62,-1920C622.62,-1920 529.38,-1920 529.38,-1920 523.38,-1920 517.38,-1914 517.38,-1908 517.38,-1908 517.38,-1896 517.38,-1896 517.38,-1890 523.38,-1884 529.38,-1884 529.38,-1884 622.62,-1884 622.62,-1884 628.62,-1884 634.62,-1890 634.62,-1896 634.62,-1896 634.62,-1908 634.62,-1908 634.62,-1914 628.62,-1920 622.62,-1920"/>
+<text xml:space="preserve" text-anchor="middle" x="576" y="-1903.35" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">2. verify(credential)</text>
+<text xml:space="preserve" text-anchor="middle" x="576" y="-1890.6" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">Python call</text>
 </g>
 <!-- s2 -->
 <!-- t2 -->
 <!-- m2 -->
 <g id="node38" class="node">
 <title>m2</title>
-<path fill="#eaf2ff" stroke="none" d="M920.75,-1837C920.75,-1837 831.25,-1837 831.25,-1837 825.25,-1837 819.25,-1831 819.25,-1825 819.25,-1825 819.25,-1813 819.25,-1813 819.25,-1807 825.25,-1801 831.25,-1801 831.25,-1801 920.75,-1801 920.75,-1801 926.75,-1801 932.75,-1807 932.75,-1813 932.75,-1813 932.75,-1825 932.75,-1825 932.75,-1831 926.75,-1837 920.75,-1837"/>
-<text xml:space="preserve" text-anchor="middle" x="876" y="-1820.35" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">3. Verify credential</text>
-<text xml:space="preserve" text-anchor="middle" x="876" y="-1807.6" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">HTTPS / JSON</text>
+<path fill="#eaf2ff" stroke="none" d="M920.75,-1859C920.75,-1859 831.25,-1859 831.25,-1859 825.25,-1859 819.25,-1853 819.25,-1847 819.25,-1847 819.25,-1835 819.25,-1835 819.25,-1829 825.25,-1823 831.25,-1823 831.25,-1823 920.75,-1823 920.75,-1823 926.75,-1823 932.75,-1829 932.75,-1835 932.75,-1835 932.75,-1847 932.75,-1847 932.75,-1853 926.75,-1859 920.75,-1859"/>
+<text xml:space="preserve" text-anchor="middle" x="876" y="-1842.35" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">3. Verify credential</text>
+<text xml:space="preserve" text-anchor="middle" x="876" y="-1829.6" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">HTTPS / JSON</text>
 </g>
 <!-- s3 -->
 <!-- t3 -->
 <!-- m3 -->
 <g id="node41" class="node">
 <title>m3</title>
-<path fill="#eaf2ff" stroke="none" d="M974.38,-1765C974.38,-1765 777.63,-1765 777.63,-1765 771.63,-1765 765.63,-1759 765.63,-1753 765.63,-1753 765.63,-1741 765.63,-1741 765.63,-1735 771.63,-1729 777.63,-1729 777.63,-1729 974.38,-1729 974.38,-1729 980.38,-1729 986.38,-1735 986.38,-1741 986.38,-1741 986.38,-1753 986.38,-1753 986.38,-1759 980.38,-1765 974.38,-1765"/>
-<text xml:space="preserve" text-anchor="middle" x="876" y="-1748.35" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">4. Verified {student_id: S23,</text>
-<text xml:space="preserve" text-anchor="middle" x="876" y="-1735.6" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">name: Ari, email: ari@example.invalid}</text>
+<path fill="#eaf2ff" stroke="none" d="M974.38,-1798C974.38,-1798 777.63,-1798 777.63,-1798 771.63,-1798 765.63,-1792 765.63,-1786 765.63,-1786 765.63,-1774 765.63,-1774 765.63,-1768 771.63,-1762 777.63,-1762 777.63,-1762 974.38,-1762 974.38,-1762 980.38,-1762 986.38,-1768 986.38,-1774 986.38,-1774 986.38,-1786 986.38,-1786 986.38,-1792 980.38,-1798 974.38,-1798"/>
+<text xml:space="preserve" text-anchor="middle" x="876" y="-1781.35" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">4. Verified {student_id: S23,</text>
+<text xml:space="preserve" text-anchor="middle" x="876" y="-1768.6" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">name: Ari, email: ari@example.invalid}</text>
 </g>
 <!-- s4 -->
 <!-- t4 -->
 <!-- m4 -->
 <g id="node44" class="node">
 <title>m4</title>
-<path fill="#eaf2ff" stroke="none" d="M643.25,-1693C643.25,-1693 508.75,-1693 508.75,-1693 502.75,-1693 496.75,-1687 496.75,-1681 496.75,-1681 496.75,-1669 496.75,-1669 496.75,-1663 502.75,-1657 508.75,-1657 508.75,-1657 643.25,-1657 643.25,-1657 649.25,-1657 655.25,-1663 655.25,-1669 655.25,-1669 655.25,-1681 655.25,-1681 655.25,-1687 649.25,-1693 643.25,-1693"/>
-<text xml:space="preserve" text-anchor="middle" x="576" y="-1676.35" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">5. VerifiedStudent(S23, Ari,</text>
-<text xml:space="preserve" text-anchor="middle" x="576" y="-1663.6" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">ari@example.invalid)</text>
+<path fill="#eaf2ff" stroke="none" d="M643.25,-1737C643.25,-1737 508.75,-1737 508.75,-1737 502.75,-1737 496.75,-1731 496.75,-1725 496.75,-1725 496.75,-1713 496.75,-1713 496.75,-1707 502.75,-1701 508.75,-1701 508.75,-1701 643.25,-1701 643.25,-1701 649.25,-1701 655.25,-1707 655.25,-1713 655.25,-1713 655.25,-1725 655.25,-1725 655.25,-1731 649.25,-1737 643.25,-1737"/>
+<text xml:space="preserve" text-anchor="middle" x="576" y="-1720.35" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">5. VerifiedStudent(S23, Ari,</text>
+<text xml:space="preserve" text-anchor="middle" x="576" y="-1707.6" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">ari@example.invalid)</text>
 </g>
 <!-- s5 -->
 <!-- t5 -->
 <!-- m5 -->
 <g id="node47" class="node">
 <title>m5</title>
-<path fill="#eaf2ff" stroke="none" d="M1074.5,-1621C1074.5,-1621 677.5,-1621 677.5,-1621 671.5,-1621 665.5,-1615 665.5,-1609 665.5,-1609 665.5,-1597 665.5,-1597 665.5,-1591 671.5,-1585 677.5,-1585 677.5,-1585 1074.5,-1585 1074.5,-1585 1080.5,-1585 1086.5,-1591 1086.5,-1597 1086.5,-1597 1086.5,-1609 1086.5,-1609 1086.5,-1615 1080.5,-1621 1074.5,-1621"/>
-<text xml:space="preserve" text-anchor="middle" x="876" y="-1597.97" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">6. reserve(VerifiedStudent(S23, Ari, ari@example.invalid), W17) · Python call</text>
+<path fill="#eaf2ff" stroke="none" d="M1074.5,-1676C1074.5,-1676 677.5,-1676 677.5,-1676 671.5,-1676 665.5,-1670 665.5,-1664 665.5,-1664 665.5,-1652 665.5,-1652 665.5,-1646 671.5,-1640 677.5,-1640 677.5,-1640 1074.5,-1640 1074.5,-1640 1080.5,-1640 1086.5,-1646 1086.5,-1652 1086.5,-1652 1086.5,-1664 1086.5,-1664 1086.5,-1670 1080.5,-1676 1074.5,-1676"/>
+<text xml:space="preserve" text-anchor="middle" x="876" y="-1652.97" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">6. reserve(VerifiedStudent(S23, Ari, ari@example.invalid), W17) · Python call</text>
 </g>
 <!-- s6 -->
 <!-- t6 -->
 <!-- m6 -->
 <g id="node50" class="node">
 <title>m6</title>
-<path fill="#eaf2ff" stroke="none" d="M1552.25,-1554.12C1552.25,-1554.12 1399.75,-1554.12 1399.75,-1554.12 1393.75,-1554.12 1387.75,-1548.12 1387.75,-1542.12 1387.75,-1542.12 1387.75,-1519.88 1387.75,-1519.88 1387.75,-1513.88 1393.75,-1507.88 1399.75,-1507.88 1399.75,-1507.88 1552.25,-1507.88 1552.25,-1507.88 1558.25,-1507.88 1564.25,-1513.88 1564.25,-1519.88 1564.25,-1519.88 1564.25,-1542.12 1564.25,-1542.12 1564.25,-1548.12 1558.25,-1554.12 1552.25,-1554.12"/>
-<text xml:space="preserve" text-anchor="middle" x="1476" y="-1538.72" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">7. Begin READ COMMITTED;</text>
-<text xml:space="preserve" text-anchor="middle" x="1476" y="-1525.97" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">lockWorkshop(W17)</text>
-<text xml:space="preserve" text-anchor="middle" x="1476" y="-1513.22" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">Python call</text>
+<path fill="#eaf2ff" stroke="none" d="M1574.38,-1615C1574.38,-1615 1377.62,-1615 1377.62,-1615 1371.62,-1615 1365.62,-1609 1365.62,-1603 1365.62,-1603 1365.62,-1591 1365.62,-1591 1365.62,-1585 1371.62,-1579 1377.62,-1579 1377.62,-1579 1574.38,-1579 1574.38,-1579 1580.38,-1579 1586.38,-1585 1586.38,-1591 1586.38,-1591 1586.38,-1603 1586.38,-1603 1586.38,-1609 1580.38,-1615 1574.38,-1615"/>
+<text xml:space="preserve" text-anchor="middle" x="1476" y="-1598.35" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">7. transaction(); tx.lockWorkshop(W17)</text>
+<text xml:space="preserve" text-anchor="middle" x="1476" y="-1585.6" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">READ COMMITTED · Python calls</text>
 </g>
 <!-- s7 -->
 <!-- t7 -->
 <!-- m7 -->
 <g id="node53" class="node">
 <title>m7</title>
-<path fill="#eaf2ff" stroke="none" d="M1878.12,-1477C1878.12,-1477 1673.87,-1477 1673.87,-1477 1667.87,-1477 1661.87,-1471 1661.87,-1465 1661.87,-1465 1661.87,-1453 1661.87,-1453 1661.87,-1447 1667.87,-1441 1673.87,-1441 1673.87,-1441 1878.12,-1441 1878.12,-1441 1884.12,-1441 1890.12,-1447 1890.12,-1453 1890.12,-1453 1890.12,-1465 1890.12,-1465 1890.12,-1471 1884.12,-1477 1878.12,-1477"/>
-<text xml:space="preserve" text-anchor="middle" x="1776" y="-1460.35" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">8. BEGIN; SELECT W17 FOR UPDATE</text>
-<text xml:space="preserve" text-anchor="middle" x="1776" y="-1447.6" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">SQL / PostgreSQL over TLS</text>
+<path fill="#eaf2ff" stroke="none" d="M1878.12,-1554C1878.12,-1554 1673.87,-1554 1673.87,-1554 1667.87,-1554 1661.87,-1548 1661.87,-1542 1661.87,-1542 1661.87,-1530 1661.87,-1530 1661.87,-1524 1667.87,-1518 1673.87,-1518 1673.87,-1518 1878.12,-1518 1878.12,-1518 1884.12,-1518 1890.12,-1524 1890.12,-1530 1890.12,-1530 1890.12,-1542 1890.12,-1542 1890.12,-1548 1884.12,-1554 1878.12,-1554"/>
+<text xml:space="preserve" text-anchor="middle" x="1776" y="-1537.35" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">8. BEGIN; SELECT W17 FOR UPDATE</text>
+<text xml:space="preserve" text-anchor="middle" x="1776" y="-1524.6" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">SQL / PostgreSQL over TLS</text>
 </g>
 <!-- s8 -->
 <!-- t8 -->
 <!-- m8 -->
 <g id="node56" class="node">
 <title>m8</title>
-<path fill="#eaf2ff" stroke="none" d="M1845.12,-1405C1845.12,-1405 1706.87,-1405 1706.87,-1405 1700.87,-1405 1694.87,-1399 1694.87,-1393 1694.87,-1393 1694.87,-1381 1694.87,-1381 1694.87,-1375 1700.87,-1369 1706.87,-1369 1706.87,-1369 1845.12,-1369 1845.12,-1369 1851.12,-1369 1857.12,-1375 1857.12,-1381 1857.12,-1381 1857.12,-1393 1857.12,-1393 1857.12,-1399 1851.12,-1405 1845.12,-1405"/>
-<text xml:space="preserve" text-anchor="middle" x="1776" y="-1388.35" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">9. Locked W17: owner S10,</text>
-<text xml:space="preserve" text-anchor="middle" x="1776" y="-1375.6" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">published, capacity 3</text>
+<path fill="#eaf2ff" stroke="none" d="M1853.37,-1493C1853.37,-1493 1698.62,-1493 1698.62,-1493 1692.62,-1493 1686.62,-1487 1686.62,-1481 1686.62,-1481 1686.62,-1469 1686.62,-1469 1686.62,-1463 1692.62,-1457 1698.62,-1457 1698.62,-1457 1853.37,-1457 1853.37,-1457 1859.37,-1457 1865.37,-1463 1865.37,-1469 1865.37,-1469 1865.37,-1481 1865.37,-1481 1865.37,-1487 1859.37,-1493 1853.37,-1493"/>
+<text xml:space="preserve" text-anchor="middle" x="1776" y="-1476.35" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">9. Locked W17: owner S10,</text>
+<text xml:space="preserve" text-anchor="middle" x="1776" y="-1463.6" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">published, capacity 3, title/time</text>
 </g>
 <!-- s9 -->
 <!-- t9 -->
 <!-- m9 -->
 <g id="node59" class="node">
 <title>m9</title>
-<path fill="#eaf2ff" stroke="none" d="M1545.5,-1333C1545.5,-1333 1406.5,-1333 1406.5,-1333 1400.5,-1333 1394.5,-1327 1394.5,-1321 1394.5,-1321 1394.5,-1309 1394.5,-1309 1394.5,-1303 1400.5,-1297 1406.5,-1297 1406.5,-1297 1545.5,-1297 1545.5,-1297 1551.5,-1297 1557.5,-1303 1557.5,-1309 1557.5,-1309 1557.5,-1321 1557.5,-1321 1557.5,-1327 1551.5,-1333 1545.5,-1333"/>
-<text xml:space="preserve" text-anchor="middle" x="1476" y="-1316.35" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">10. Locked Workshop(W17,</text>
-<text xml:space="preserve" text-anchor="middle" x="1476" y="-1303.6" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">S10, published, capacity 3)</text>
+<path fill="#eaf2ff" stroke="none" d="M1559.38,-1432C1559.38,-1432 1392.62,-1432 1392.62,-1432 1386.62,-1432 1380.62,-1426 1380.62,-1420 1380.62,-1420 1380.62,-1408 1380.62,-1408 1380.62,-1402 1386.62,-1396 1392.62,-1396 1392.62,-1396 1559.38,-1396 1559.38,-1396 1565.38,-1396 1571.38,-1402 1571.38,-1408 1571.38,-1408 1571.38,-1420 1571.38,-1420 1571.38,-1426 1565.38,-1432 1559.38,-1432"/>
+<text xml:space="preserve" text-anchor="middle" x="1476" y="-1415.35" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">10. Locked Workshop(W17, S10,</text>
+<text xml:space="preserve" text-anchor="middle" x="1476" y="-1402.6" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">published, capacity 3, title/time)</text>
 </g>
 <!-- s10 -->
 <!-- t10 -->
 <!-- m10 -->
 <g id="node62" class="node">
 <title>m10</title>
-<path fill="#eaf2ff" stroke="none" d="M1543.62,-1266.12C1543.62,-1266.12 1408.38,-1266.12 1408.38,-1266.12 1402.38,-1266.12 1396.38,-1260.12 1396.38,-1254.12 1396.38,-1254.12 1396.38,-1231.88 1396.38,-1231.88 1396.38,-1225.88 1402.38,-1219.88 1408.38,-1219.88 1408.38,-1219.88 1543.62,-1219.88 1543.62,-1219.88 1549.62,-1219.88 1555.62,-1225.88 1555.62,-1231.88 1555.62,-1231.88 1555.62,-1254.12 1555.62,-1254.12 1555.62,-1260.12 1549.62,-1266.12 1543.62,-1266.12"/>
-<text xml:space="preserve" text-anchor="middle" x="1476" y="-1250.72" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">11. findExisting(W17, S23);</text>
-<text xml:space="preserve" text-anchor="middle" x="1476" y="-1237.97" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">then countSeats(W17)</text>
-<text xml:space="preserve" text-anchor="middle" x="1476" y="-1225.22" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">Python calls</text>
+<path fill="#eaf2ff" stroke="none" d="M1548.12,-1371C1548.12,-1371 1403.88,-1371 1403.88,-1371 1397.88,-1371 1391.88,-1365 1391.88,-1359 1391.88,-1359 1391.88,-1347 1391.88,-1347 1391.88,-1341 1397.88,-1335 1403.88,-1335 1403.88,-1335 1548.12,-1335 1548.12,-1335 1554.12,-1335 1560.12,-1341 1560.12,-1347 1560.12,-1347 1560.12,-1359 1560.12,-1359 1560.12,-1365 1554.12,-1371 1548.12,-1371"/>
+<text xml:space="preserve" text-anchor="middle" x="1476" y="-1354.35" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">11. tx.findExisting(W17, S23)</text>
+<text xml:space="preserve" text-anchor="middle" x="1476" y="-1341.6" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">Python call</text>
 </g>
 <!-- s11 -->
 <!-- t11 -->
 <!-- m11 -->
 <g id="node65" class="node">
 <title>m11</title>
-<path fill="#eaf2ff" stroke="none" d="M1854.5,-1194.12C1854.5,-1194.12 1697.5,-1194.12 1697.5,-1194.12 1691.5,-1194.12 1685.5,-1188.12 1685.5,-1182.12 1685.5,-1182.12 1685.5,-1159.88 1685.5,-1159.88 1685.5,-1153.88 1691.5,-1147.88 1697.5,-1147.88 1697.5,-1147.88 1854.5,-1147.88 1854.5,-1147.88 1860.5,-1147.88 1866.5,-1153.88 1866.5,-1159.88 1866.5,-1159.88 1866.5,-1182.12 1866.5,-1182.12 1866.5,-1188.12 1860.5,-1194.12 1854.5,-1194.12"/>
-<text xml:space="preserve" text-anchor="middle" x="1776" y="-1178.72" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">12. Fresh SELECT statements:</text>
-<text xml:space="preserve" text-anchor="middle" x="1776" y="-1165.97" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">existing reservation; seat count</text>
-<text xml:space="preserve" text-anchor="middle" x="1776" y="-1153.22" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">SQL / PostgreSQL over TLS</text>
+<path fill="#eaf2ff" stroke="none" d="M1885.62,-1315.12C1885.62,-1315.12 1666.37,-1315.12 1666.37,-1315.12 1660.37,-1315.12 1654.37,-1309.12 1654.37,-1303.12 1654.37,-1303.12 1654.37,-1280.88 1654.37,-1280.88 1654.37,-1274.88 1660.37,-1268.88 1666.37,-1268.88 1666.37,-1268.88 1885.62,-1268.88 1885.62,-1268.88 1891.62,-1268.88 1897.62,-1274.88 1897.62,-1280.88 1897.62,-1280.88 1897.62,-1303.12 1897.62,-1303.12 1897.62,-1309.12 1891.62,-1315.12 1885.62,-1315.12"/>
+<text xml:space="preserve" text-anchor="middle" x="1776" y="-1299.72" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">12. SELECT reservation WHERE</text>
+<text xml:space="preserve" text-anchor="middle" x="1776" y="-1286.97" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">workshop_id = W17 AND student_id = S23</text>
+<text xml:space="preserve" text-anchor="middle" x="1776" y="-1274.22" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">Fresh statement · SQL</text>
 </g>
 <!-- s12 -->
 <!-- t12 -->
 <!-- m12 -->
 <g id="node68" class="node">
 <title>m12</title>
-<path fill="#eaf2ff" stroke="none" d="M1870.25,-1117C1870.25,-1117 1681.75,-1117 1681.75,-1117 1675.75,-1117 1669.75,-1111 1669.75,-1105 1669.75,-1105 1669.75,-1093 1669.75,-1093 1669.75,-1087 1675.75,-1081 1681.75,-1081 1681.75,-1081 1870.25,-1081 1870.25,-1081 1876.25,-1081 1882.25,-1087 1882.25,-1093 1882.25,-1093 1882.25,-1105 1882.25,-1105 1882.25,-1111 1876.25,-1117 1870.25,-1117"/>
-<text xml:space="preserve" text-anchor="middle" x="1776" y="-1093.97" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">13. No existing reservation; count = 2</text>
+<path fill="#eaf2ff" stroke="none" d="M1846.62,-1249C1846.62,-1249 1705.37,-1249 1705.37,-1249 1699.37,-1249 1693.37,-1243 1693.37,-1237 1693.37,-1237 1693.37,-1225 1693.37,-1225 1693.37,-1219 1699.37,-1213 1705.37,-1213 1705.37,-1213 1846.62,-1213 1846.62,-1213 1852.62,-1213 1858.62,-1219 1858.62,-1225 1858.62,-1225 1858.62,-1237 1858.62,-1237 1858.62,-1243 1852.62,-1249 1846.62,-1249"/>
+<text xml:space="preserve" text-anchor="middle" x="1776" y="-1225.97" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">13. No matching reservation</text>
 </g>
 <!-- s13 -->
 <!-- t13 -->
 <!-- m13 -->
 <g id="node71" class="node">
 <title>m13</title>
-<path fill="#eaf2ff" stroke="none" d="M1561.25,-1045C1561.25,-1045 1390.75,-1045 1390.75,-1045 1384.75,-1045 1378.75,-1039 1378.75,-1033 1378.75,-1033 1378.75,-1021 1378.75,-1021 1378.75,-1015 1384.75,-1009 1390.75,-1009 1390.75,-1009 1561.25,-1009 1561.25,-1009 1567.25,-1009 1573.25,-1015 1573.25,-1021 1573.25,-1021 1573.25,-1033 1573.25,-1033 1573.25,-1039 1567.25,-1045 1561.25,-1045"/>
-<text xml:space="preserve" text-anchor="middle" x="1476" y="-1028.35" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">14. Existing = None; occupied = 2</text>
-<text xml:space="preserve" text-anchor="middle" x="1476" y="-1015.6" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">Rules check: published and 2 &lt; 3</text>
+<path fill="#eaf2ff" stroke="none" d="M1557.88,-1188C1557.88,-1188 1394.12,-1188 1394.12,-1188 1388.12,-1188 1382.12,-1182 1382.12,-1176 1382.12,-1176 1382.12,-1164 1382.12,-1164 1382.12,-1158 1388.12,-1152 1394.12,-1152 1394.12,-1152 1557.88,-1152 1557.88,-1152 1563.88,-1152 1569.88,-1158 1569.88,-1164 1569.88,-1164 1569.88,-1176 1569.88,-1176 1569.88,-1182 1563.88,-1188 1557.88,-1188"/>
+<text xml:space="preserve" text-anchor="middle" x="1476" y="-1171.35" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">14. None · continue</text>
+<text xml:space="preserve" text-anchor="middle" x="1476" y="-1158.6" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">Rules confirm W17 is published.</text>
 </g>
 <!-- s14 -->
 <!-- t14 -->
 <!-- m14 -->
 <g id="node74" class="node">
 <title>m14</title>
-<path fill="#eaf2ff" stroke="none" d="M1566.88,-973C1566.88,-973 1385.12,-973 1385.12,-973 1379.12,-973 1373.12,-967 1373.12,-961 1373.12,-961 1373.12,-949 1373.12,-949 1373.12,-943 1379.12,-937 1385.12,-937 1385.12,-937 1566.88,-937 1566.88,-937 1572.88,-937 1578.88,-943 1578.88,-949 1578.88,-949 1578.88,-961 1578.88,-961 1578.88,-967 1572.88,-973 1566.88,-973"/>
-<text xml:space="preserve" text-anchor="middle" x="1476" y="-956.35" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">15. insert(W17, verified S23 profile);</text>
-<text xml:space="preserve" text-anchor="middle" x="1476" y="-943.6" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">commit() · Python calls</text>
+<path fill="#eaf2ff" stroke="none" d="M1533.88,-1127C1533.88,-1127 1418.12,-1127 1418.12,-1127 1412.12,-1127 1406.12,-1121 1406.12,-1115 1406.12,-1115 1406.12,-1103 1406.12,-1103 1406.12,-1097 1412.12,-1091 1418.12,-1091 1418.12,-1091 1533.88,-1091 1533.88,-1091 1539.88,-1091 1545.88,-1097 1545.88,-1103 1545.88,-1103 1545.88,-1115 1545.88,-1115 1545.88,-1121 1539.88,-1127 1533.88,-1127"/>
+<text xml:space="preserve" text-anchor="middle" x="1476" y="-1110.35" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">15. tx.countSeats(W17)</text>
+<text xml:space="preserve" text-anchor="middle" x="1476" y="-1097.6" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">Python call</text>
 </g>
 <!-- s15 -->
 <!-- t15 -->
 <!-- m15 -->
 <g id="node77" class="node">
 <title>m15</title>
-<path fill="#eaf2ff" stroke="none" d="M1875.5,-901C1875.5,-901 1676.5,-901 1676.5,-901 1670.5,-901 1664.5,-895 1664.5,-889 1664.5,-889 1664.5,-877 1664.5,-877 1664.5,-871 1670.5,-865 1676.5,-865 1676.5,-865 1875.5,-865 1875.5,-865 1881.5,-865 1887.5,-871 1887.5,-877 1887.5,-877 1887.5,-889 1887.5,-889 1887.5,-895 1881.5,-901 1875.5,-901"/>
-<text xml:space="preserve" text-anchor="middle" x="1776" y="-884.35" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">16. INSERT R23 (W17,S23,Ari,email);</text>
-<text xml:space="preserve" text-anchor="middle" x="1776" y="-871.6" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">COMMIT · SQL / PostgreSQL over TLS</text>
+<path fill="#eaf2ff" stroke="none" d="M1876.25,-1066C1876.25,-1066 1675.75,-1066 1675.75,-1066 1669.75,-1066 1663.75,-1060 1663.75,-1054 1663.75,-1054 1663.75,-1042 1663.75,-1042 1663.75,-1036 1669.75,-1030 1675.75,-1030 1675.75,-1030 1876.25,-1030 1876.25,-1030 1882.25,-1030 1888.25,-1036 1888.25,-1042 1888.25,-1042 1888.25,-1054 1888.25,-1054 1888.25,-1060 1882.25,-1066 1876.25,-1066"/>
+<text xml:space="preserve" text-anchor="middle" x="1776" y="-1049.35" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">16. SELECT count of W17 reservations</text>
+<text xml:space="preserve" text-anchor="middle" x="1776" y="-1036.6" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">Fresh statement · SQL</text>
 </g>
 <!-- s16 -->
 <!-- t16 -->
 <!-- m16 -->
 <g id="node80" class="node">
 <title>m16</title>
-<path fill="#eaf2ff" stroke="none" d="M1866.87,-829C1866.87,-829 1685.12,-829 1685.12,-829 1679.12,-829 1673.12,-823 1673.12,-817 1673.12,-817 1673.12,-805 1673.12,-805 1673.12,-799 1679.12,-793 1685.12,-793 1685.12,-793 1866.87,-793 1866.87,-793 1872.87,-793 1878.87,-799 1878.87,-805 1878.87,-805 1878.87,-817 1878.87,-817 1878.87,-823 1872.87,-829 1866.87,-829"/>
-<text xml:space="preserve" text-anchor="middle" x="1776" y="-812.35" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">17. COMMIT acknowledged</text>
-<text xml:space="preserve" text-anchor="middle" x="1776" y="-799.6" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">R23 stored; lock released; seats = 3</text>
+<path fill="#eaf2ff" stroke="none" d="M1807.62,-1005C1807.62,-1005 1744.37,-1005 1744.37,-1005 1738.37,-1005 1732.37,-999 1732.37,-993 1732.37,-993 1732.37,-981 1732.37,-981 1732.37,-975 1738.37,-969 1744.37,-969 1744.37,-969 1807.62,-969 1807.62,-969 1813.62,-969 1819.62,-975 1819.62,-981 1819.62,-981 1819.62,-993 1819.62,-993 1819.62,-999 1813.62,-1005 1807.62,-1005"/>
+<text xml:space="preserve" text-anchor="middle" x="1776" y="-981.98" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">17. Count = 2</text>
 </g>
 <!-- s17 -->
 <!-- t17 -->
 <!-- m17 -->
 <g id="node83" class="node">
 <title>m17</title>
-<path fill="#eaf2ff" stroke="none" d="M1557.12,-757C1557.12,-757 1394.88,-757 1394.88,-757 1388.88,-757 1382.88,-751 1382.88,-745 1382.88,-745 1382.88,-733 1382.88,-733 1382.88,-727 1388.88,-721 1394.88,-721 1394.88,-721 1557.12,-721 1557.12,-721 1563.12,-721 1569.12,-727 1569.12,-733 1569.12,-733 1569.12,-745 1569.12,-745 1569.12,-751 1563.12,-757 1557.12,-757"/>
-<text xml:space="preserve" text-anchor="middle" x="1476" y="-740.35" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">18. Committed Reservation R23</text>
-<text xml:space="preserve" text-anchor="middle" x="1476" y="-727.6" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">for W17 / S23</text>
+<path fill="#eaf2ff" stroke="none" d="M1548.5,-944C1548.5,-944 1403.5,-944 1403.5,-944 1397.5,-944 1391.5,-938 1391.5,-932 1391.5,-932 1391.5,-920 1391.5,-920 1391.5,-914 1397.5,-908 1403.5,-908 1403.5,-908 1548.5,-908 1548.5,-908 1554.5,-908 1560.5,-914 1560.5,-920 1560.5,-920 1560.5,-932 1560.5,-932 1560.5,-938 1554.5,-944 1548.5,-944"/>
+<text xml:space="preserve" text-anchor="middle" x="1476" y="-927.35" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">18. Occupied = 2</text>
+<text xml:space="preserve" text-anchor="middle" x="1476" y="-914.6" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">Rules confirm 2 &lt; capacity 3.</text>
 </g>
 <!-- s18 -->
 <!-- t18 -->
 <!-- m18 -->
 <g id="node86" class="node">
 <title>m18</title>
-<path fill="#eaf2ff" stroke="none" d="M1974.87,-685C1974.87,-685 1577.12,-685 1577.12,-685 1571.12,-685 1565.12,-679 1565.12,-673 1565.12,-673 1565.12,-661 1565.12,-661 1565.12,-655 1571.12,-649 1577.12,-649 1577.12,-649 1974.87,-649 1974.87,-649 1980.87,-649 1986.87,-655 1986.87,-661 1986.87,-661 1986.87,-673 1986.87,-673 1986.87,-679 1980.87,-685 1974.87,-685"/>
-<text xml:space="preserve" text-anchor="middle" x="1776" y="-661.98" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">19. sendConfirmation(ari@example.invalid, R23, W17 title/time) · Python call</text>
+<path fill="#eaf2ff" stroke="none" d="M1572.88,-883C1572.88,-883 1379.12,-883 1379.12,-883 1373.12,-883 1367.12,-877 1367.12,-871 1367.12,-871 1367.12,-859 1367.12,-859 1367.12,-853 1373.12,-847 1379.12,-847 1379.12,-847 1572.88,-847 1572.88,-847 1578.88,-847 1584.88,-853 1584.88,-859 1584.88,-859 1584.88,-871 1584.88,-871 1584.88,-877 1578.88,-883 1572.88,-883"/>
+<text xml:space="preserve" text-anchor="middle" x="1476" y="-866.35" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">19. tx.insert(W17, verified S23 profile);</text>
+<text xml:space="preserve" text-anchor="middle" x="1476" y="-853.6" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">tx.commit() · Python calls</text>
 </g>
 <!-- s19 -->
 <!-- t19 -->
 <!-- m19 -->
 <g id="node89" class="node">
 <title>m19</title>
-<path fill="#eaf2ff" stroke="none" d="M2476.25,-618.12C2476.25,-618.12 2275.75,-618.12 2275.75,-618.12 2269.75,-618.12 2263.75,-612.12 2263.75,-606.12 2263.75,-606.12 2263.75,-583.88 2263.75,-583.88 2263.75,-577.88 2269.75,-571.88 2275.75,-571.88 2275.75,-571.88 2476.25,-571.88 2476.25,-571.88 2482.25,-571.88 2488.25,-577.88 2488.25,-583.88 2488.25,-583.88 2488.25,-606.12 2488.25,-606.12 2488.25,-612.12 2482.25,-618.12 2476.25,-618.12"/>
-<text xml:space="preserve" text-anchor="middle" x="2376" y="-602.73" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">20. Request confirmation for R23 / W17</text>
-<text xml:space="preserve" text-anchor="middle" x="2376" y="-589.98" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">to ari@example.invalid</text>
-<text xml:space="preserve" text-anchor="middle" x="2376" y="-577.23" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">HTTPS / JSON</text>
+<path fill="#eaf2ff" stroke="none" d="M1875.5,-822C1875.5,-822 1676.5,-822 1676.5,-822 1670.5,-822 1664.5,-816 1664.5,-810 1664.5,-810 1664.5,-798 1664.5,-798 1664.5,-792 1670.5,-786 1676.5,-786 1676.5,-786 1875.5,-786 1875.5,-786 1881.5,-786 1887.5,-792 1887.5,-798 1887.5,-798 1887.5,-810 1887.5,-810 1887.5,-816 1881.5,-822 1875.5,-822"/>
+<text xml:space="preserve" text-anchor="middle" x="1776" y="-805.35" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">20. INSERT R23 (W17,S23,Ari,email);</text>
+<text xml:space="preserve" text-anchor="middle" x="1776" y="-792.6" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">COMMIT · SQL / PostgreSQL over TLS</text>
 </g>
 <!-- s20 -->
 <!-- t20 -->
 <!-- m20 -->
 <g id="node92" class="node">
 <title>m20</title>
-<path fill="#eaf2ff" stroke="none" d="M2456.38,-541C2456.38,-541 2295.62,-541 2295.62,-541 2289.62,-541 2283.62,-535 2283.62,-529 2283.62,-529 2283.62,-517 2283.62,-517 2283.62,-511 2289.62,-505 2295.62,-505 2295.62,-505 2456.38,-505 2456.38,-505 2462.38,-505 2468.38,-511 2468.38,-517 2468.38,-517 2468.38,-529 2468.38,-529 2468.38,-535 2462.38,-541 2456.38,-541"/>
-<text xml:space="preserve" text-anchor="middle" x="2376" y="-517.98" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">21. Unavailable (service failure)</text>
+<path fill="#eaf2ff" stroke="none" d="M1846.25,-761C1846.25,-761 1705.75,-761 1705.75,-761 1699.75,-761 1693.75,-755 1693.75,-749 1693.75,-749 1693.75,-737 1693.75,-737 1693.75,-731 1699.75,-725 1705.75,-725 1705.75,-725 1846.25,-725 1846.25,-725 1852.25,-725 1858.25,-731 1858.25,-737 1858.25,-737 1858.25,-749 1858.25,-749 1858.25,-755 1852.25,-761 1846.25,-761"/>
+<text xml:space="preserve" text-anchor="middle" x="1776" y="-744.35" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">21. COMMIT acknowledged</text>
+<text xml:space="preserve" text-anchor="middle" x="1776" y="-731.6" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">R23 stored; lock released</text>
 </g>
 <!-- s21 -->
 <!-- t21 -->
 <!-- m21 -->
 <g id="node95" class="node">
 <title>m21</title>
-<path fill="#eaf2ff" stroke="none" d="M1937,-469C1937,-469 1615,-469 1615,-469 1609,-469 1603,-463 1603,-457 1603,-457 1603,-445 1603,-445 1603,-439 1609,-433 1615,-433 1615,-433 1937,-433 1937,-433 1943,-433 1949,-439 1949,-445 1949,-445 1949,-457 1949,-457 1949,-463 1943,-469 1937,-469"/>
-<text xml:space="preserve" text-anchor="middle" x="1776" y="-445.98" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">22. Unavailable · keep R23; no rollback and no automatic retry</text>
+<path fill="#eaf2ff" stroke="none" d="M1557.12,-700C1557.12,-700 1394.88,-700 1394.88,-700 1388.88,-700 1382.88,-694 1382.88,-688 1382.88,-688 1382.88,-676 1382.88,-676 1382.88,-670 1388.88,-664 1394.88,-664 1394.88,-664 1557.12,-664 1557.12,-664 1563.12,-664 1569.12,-670 1569.12,-676 1569.12,-676 1569.12,-688 1569.12,-688 1569.12,-694 1563.12,-700 1557.12,-700"/>
+<text xml:space="preserve" text-anchor="middle" x="1476" y="-683.35" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">22. Committed Reservation R23</text>
+<text xml:space="preserve" text-anchor="middle" x="1476" y="-670.6" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">for W17 / S23</text>
 </g>
 <!-- s22 -->
 <!-- t22 -->
 <!-- m22 -->
 <g id="node98" class="node">
 <title>m22</title>
-<path fill="#eaf2ff" stroke="none" d="M1010.38,-397C1010.38,-397 741.63,-397 741.63,-397 735.63,-397 729.63,-391 729.63,-385 729.63,-385 729.63,-373 729.63,-373 729.63,-367 735.63,-361 741.63,-361 741.63,-361 1010.38,-361 1010.38,-361 1016.38,-361 1022.38,-367 1022.38,-373 1022.38,-373 1022.38,-385 1022.38,-385 1022.38,-391 1016.38,-397 1010.38,-397"/>
-<text xml:space="preserve" text-anchor="middle" x="876" y="-373.98" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">23. Created(reservation = R23, email = Unavailable)</text>
+<path fill="#eaf2ff" stroke="none" d="M1974.87,-639C1974.87,-639 1577.12,-639 1577.12,-639 1571.12,-639 1565.12,-633 1565.12,-627 1565.12,-627 1565.12,-615 1565.12,-615 1565.12,-609 1571.12,-603 1577.12,-603 1577.12,-603 1974.87,-603 1974.87,-603 1980.87,-603 1986.87,-609 1986.87,-615 1986.87,-615 1986.87,-627 1986.87,-627 1986.87,-633 1980.87,-639 1974.87,-639"/>
+<text xml:space="preserve" text-anchor="middle" x="1776" y="-615.98" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">23. sendConfirmation(ari@example.invalid, R23, W17 title/time) · Python call</text>
 </g>
 <!-- s23 -->
 <!-- t23 -->
 <!-- m23 -->
 <g id="node101" class="node">
 <title>m23</title>
-<path fill="#eaf2ff" stroke="none" d="M385.62,-330.12C385.62,-330.12 166.38,-330.12 166.38,-330.12 160.38,-330.12 154.38,-324.12 154.38,-318.12 154.38,-318.12 154.38,-295.88 154.38,-295.88 154.38,-289.88 160.38,-283.88 166.38,-283.88 166.38,-283.88 385.62,-283.88 385.62,-283.88 391.62,-283.88 397.62,-289.88 397.62,-295.88 397.62,-295.88 397.62,-318.12 397.62,-318.12 397.62,-324.12 391.62,-330.12 385.62,-330.12"/>
-<text xml:space="preserve" text-anchor="middle" x="276" y="-314.73" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">24. HTTP 201 · Created(R23, Unavailable)</text>
-<text xml:space="preserve" text-anchor="middle" x="276" y="-301.98" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">Web UI shows reservation success</text>
-<text xml:space="preserve" text-anchor="middle" x="276" y="-289.23" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">and email warning.</text>
+<path fill="#eaf2ff" stroke="none" d="M2476.25,-583.12C2476.25,-583.12 2275.75,-583.12 2275.75,-583.12 2269.75,-583.12 2263.75,-577.12 2263.75,-571.12 2263.75,-571.12 2263.75,-548.88 2263.75,-548.88 2263.75,-542.88 2269.75,-536.88 2275.75,-536.88 2275.75,-536.88 2476.25,-536.88 2476.25,-536.88 2482.25,-536.88 2488.25,-542.88 2488.25,-548.88 2488.25,-548.88 2488.25,-571.12 2488.25,-571.12 2488.25,-577.12 2482.25,-583.12 2476.25,-583.12"/>
+<text xml:space="preserve" text-anchor="middle" x="2376" y="-567.73" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">24. Request confirmation for R23 / W17</text>
+<text xml:space="preserve" text-anchor="middle" x="2376" y="-554.98" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">to ari@example.invalid</text>
+<text xml:space="preserve" text-anchor="middle" x="2376" y="-542.23" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">HTTPS / JSON</text>
+</g>
+<!-- s24 -->
+<!-- t24 -->
+<!-- m24 -->
+<g id="node104" class="node">
+<title>m24</title>
+<path fill="#eaf2ff" stroke="none" d="M2456.38,-517C2456.38,-517 2295.62,-517 2295.62,-517 2289.62,-517 2283.62,-511 2283.62,-505 2283.62,-505 2283.62,-493 2283.62,-493 2283.62,-487 2289.62,-481 2295.62,-481 2295.62,-481 2456.38,-481 2456.38,-481 2462.38,-481 2468.38,-487 2468.38,-493 2468.38,-493 2468.38,-505 2468.38,-505 2468.38,-511 2462.38,-517 2456.38,-517"/>
+<text xml:space="preserve" text-anchor="middle" x="2376" y="-493.98" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">25. Unavailable (service failure)</text>
+</g>
+<!-- s25 -->
+<!-- t25 -->
+<!-- m25 -->
+<g id="node107" class="node">
+<title>m25</title>
+<path fill="#eaf2ff" stroke="none" d="M1937,-456C1937,-456 1615,-456 1615,-456 1609,-456 1603,-450 1603,-444 1603,-444 1603,-432 1603,-432 1603,-426 1609,-420 1615,-420 1615,-420 1937,-420 1937,-420 1943,-420 1949,-426 1949,-432 1949,-432 1949,-444 1949,-444 1949,-450 1943,-456 1937,-456"/>
+<text xml:space="preserve" text-anchor="middle" x="1776" y="-432.98" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">26. Unavailable · keep R23; no rollback and no automatic retry</text>
+</g>
+<!-- s26 -->
+<!-- t26 -->
+<!-- m26 -->
+<g id="node110" class="node">
+<title>m26</title>
+<path fill="#eaf2ff" stroke="none" d="M1010.38,-395C1010.38,-395 741.63,-395 741.63,-395 735.63,-395 729.63,-389 729.63,-383 729.63,-383 729.63,-371 729.63,-371 729.63,-365 735.63,-359 741.63,-359 741.63,-359 1010.38,-359 1010.38,-359 1016.38,-359 1022.38,-365 1022.38,-371 1022.38,-371 1022.38,-383 1022.38,-383 1022.38,-389 1016.38,-395 1010.38,-395"/>
+<text xml:space="preserve" text-anchor="middle" x="876" y="-371.98" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">27. Created(reservation = R23, email = Unavailable)</text>
+</g>
+<!-- s27 -->
+<!-- t27 -->
+<!-- m27 -->
+<g id="node113" class="node">
+<title>m27</title>
+<path fill="#eaf2ff" stroke="none" d="M385.62,-339.12C385.62,-339.12 166.38,-339.12 166.38,-339.12 160.38,-339.12 154.38,-333.12 154.38,-327.12 154.38,-327.12 154.38,-304.88 154.38,-304.88 154.38,-298.88 160.38,-292.88 166.38,-292.88 166.38,-292.88 385.62,-292.88 385.62,-292.88 391.62,-292.88 397.62,-298.88 397.62,-304.88 397.62,-304.88 397.62,-327.12 397.62,-327.12 397.62,-333.12 391.62,-339.12 385.62,-339.12"/>
+<text xml:space="preserve" text-anchor="middle" x="276" y="-323.73" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">28. HTTP 201 · Created(R23, Unavailable)</text>
+<text xml:space="preserve" text-anchor="middle" x="276" y="-310.98" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">Web UI shows reservation success</text>
+<text xml:space="preserve" text-anchor="middle" x="276" y="-298.23" font-family="Helvetica,sans-Serif" font-size="12.00" fill="#0f172a">and email warning.</text>
 </g>
 <!-- post -->
-<g id="node102" class="node">
+<g id="node114" class="node">
 <title>post</title>
 <polygon fill="#dcfce7" stroke="#15803d" points="1721,-167.5 925,-167.5 925,-114.5 1727,-114.5 1727,-161.5 1721,-167.5"/>
 <polyline fill="none" stroke="#15803d" points="1721,-167.5 1721,-161.5"/>
@@ -532,13 +589,13 @@
 <text xml:space="preserve" text-anchor="middle" x="1326" y="-120.2" font-family="Helvetica,sans-Serif" font-size="14.00">Refresh reads R23 from storage. A repeated reserve returns Existing(R23) unchanged, with no extra seat or email.</text>
 </g>
 <!-- legend -->
-<g id="node103" class="node">
+<g id="node115" class="node">
 <title>legend</title>
-<path fill="#eaf2ff" stroke="none" d="M1702.25,-62C1702.25,-62 949.75,-62 949.75,-62 943.75,-62 937.75,-56 937.75,-50 937.75,-50 937.75,-12 937.75,-12 937.75,-6 943.75,0 949.75,0 949.75,0 1702.25,0 1702.25,0 1708.25,0 1714.25,-6 1714.25,-12 1714.25,-12 1714.25,-50 1714.25,-50 1714.25,-56 1708.25,-62 1702.25,-62"/>
+<path fill="#eaf2ff" stroke="none" d="M1715,-62C1715,-62 937,-62 937,-62 931,-62 925,-56 925,-50 925,-50 925,-12 925,-12 925,-6 931,0 937,0 937,0 1715,0 1715,0 1721,0 1727,-6 1727,-12 1727,-12 1727,-50 1727,-50 1727,-56 1721,-62 1715,-62"/>
 <text xml:space="preserve" text-anchor="middle" x="1326" y="-45.65" font-family="Helvetica,sans-Serif" font-size="13.00">LEGEND: time runs downward; numbers give the interaction order. Solid arrow = request; green dashed arrow = response.</text>
 <text xml:space="preserve" text-anchor="middle" x="1326" y="-32.15" font-family="Helvetica,sans-Serif" font-size="13.00">Vertical dotted line = participant lifeline. Blue = application/component; green = data store; grey = external system.</text>
-<text xml:space="preserve" text-anchor="middle" x="1326" y="-18.65" font-family="Helvetica,sans-Serif" font-size="13.00">All components belong to the same Board API application. Each participant reuses its name and responsibility from views 02/03.</text>
-<text xml:space="preserve" text-anchor="middle" x="1326" y="-5.15" font-family="Helvetica,sans-Serif" font-size="13.00">The storage transaction ends at step 17. The mail attempt at step 20 is outside it.</text>
+<text xml:space="preserve" text-anchor="middle" x="1326" y="-18.65" font-family="Helvetica,sans-Serif" font-size="13.00">All components belong to Board API; participants reuse views 02/03. tx = one ReservationTransaction supplied by Board Repository.</text>
+<text xml:space="preserve" text-anchor="middle" x="1326" y="-5.15" font-family="Helvetica,sans-Serif" font-size="13.00">The storage transaction ends at step 21. The mail attempt at step 24 is outside it. HTTPS/JSON are assumed external contracts.</text>
 </g>
 </g>
 </svg>

@@ -9,9 +9,9 @@ digraph Code {
     identity [label="IdentityResult [tagged input type]\nVerifiedStudent(student_id: StudentId,\nname: str, email: Email) | Unverified\nOnly Identity Gateway supplies verified values."];
     service [fillcolor="#1D4ED8", fontcolor=white,
       label="ReservationService [class]\nreserve(identity: IdentityResult,\nworkshop_id: WorkshopId) → ReservationResult\n1. Reject Unverified immediately.\n2. Begin transaction; lock workshop row.\n3. Not found → Rejected(NotFound).\n4. Existing reservation → Existing unchanged; no email.\n5. Unpublished → Rejected(NotPublished).\n6. Count ≥ capacity → Rejected(Full).\n7. Insert seat and COMMIT.\n8. Send one confirmation; return Created + mail status."];
-    policy [label="SeatPolicy [pure function]\ncheck(workshop: Workshop, occupied: int)\n→ Allowed | NotPublished | Full\nCalled after duplicate lookup, while lock is held."];
+    policy [label="SeatPolicy [stateless class]\ncheck(workshop: Workshop, occupied: int)\n→ Allowed | NotPublished | Full\nCalled after duplicate lookup, while lock is held."];
     result [label="ReservationResult [tagged result type]\nCreated(reservation: Reservation, email: EmailStatus)\nExisting(reservation: Reservation)\nRejected(reason: Unverified | NotFound | NotPublished | Full)\nEmailStatus = Sent | Unavailable"];
-    types [label="Domain records [immutable data types]\nWorkshop: id: WorkshopId, owner_id: StudentId,\ntitle: str, start_time: datetime, capacity: int, published: bool\nReservation: id: ReservationId, workshop_id: WorkshopId,\nstudent_id: StudentId, name: str, email: Email, created_at: datetime\nIDs are opaque UUID-backed types; timestamps have a time zone."];
+    types [label="Domain records [immutable data types]\nWorkshop: id: WorkshopId, owner_id: StudentId,\ntitle: str, start_time: datetime, capacity: int, published: bool\nReservation: id: ReservationId, workshop_id: WorkshopId,\nstudent_id: StudentId, name: str, email: Email, created_at: datetime\nStudentId = opaque provider string; Email = verified profile string.\nWorkshopId / ReservationId = generated UUID strings.\nTimestamps have a time zone."];
     identity -> service [label="typed input"];
     service -> policy [label="calls check after existing lookup"];
     service -> result [label="returns one variant"];
@@ -19,13 +19,17 @@ digraph Code {
     result -> types [style=dashed, label="contains Reservation on success"];
   }
   repository [fillcolor="#F1F5F9", color="#64748B",
-    label="Board Repository [supporting component interface]\ntransaction() → ReservationTransaction\nlockWorkshop(id: WorkshopId) → Workshop?\nfindExisting(id: WorkshopId, student: StudentId) → Reservation?\ncountSeats(id: WorkshopId) → int\ninsert(id: WorkshopId, student: VerifiedStudent) → Reservation\ncommit() → Committed; rollback() → None\nPython calls backed by PostgreSQL/TLS."];
+    label="BoardRepository [class in Board Repository component]\ntransaction() → ReservationTransaction\nProvide one PostgreSQL connection at READ COMMITTED.\nPython calls backed by PostgreSQL/TLS."];
+  transaction [fillcolor="#F1F5F9", color="#64748B",
+    label="ReservationTransaction [interface from Board Repository]\nlockWorkshop(id: WorkshopId) → Workshop?\nfindExisting(id: WorkshopId, student: StudentId) → Reservation?\ncountSeats(id: WorkshopId) → int\ninsert(id: WorkshopId, student: VerifiedStudent) → Reservation\ncommit() → Committed; rollback() → None\nAll calls share one connection and transaction.\nEarly exit closes it; pre-commit failure rolls back."];
   mail [fillcolor="#F1F5F9", color="#64748B",
     label="Mail Gateway [supporting component interface]\nsendConfirmation(email: Email, reservation: Reservation,\nworkshop: Workshop) → Sent | Unavailable\nPython call; HTTPS adapter to University Mail.\nTimeout/error becomes Unavailable; no automatic retry."];
-  service -> repository [label="uses one transaction\nRead-only exits release lock without writes."];
+  service -> repository [label="calls transaction()\n← ReservationTransaction"];
+  repository -> transaction [label="provides one transaction object"];
+  service -> transaction [label="calls lock / find / count / insert / commit\nRead-only exits release lock without writes."];
   service -> mail [label="calls only for a new seat\nand only after COMMIT succeeds"];
   invariant [shape=note, fillcolor="#FFFBEB", color="#D97706", fontsize=13,
     label="INVARIANT / OVERLAPPING CALLS\n0 ≤ stored reservations per workshop ≤ capacity; at most one per student.\nEvery insert first locks the SAME workshop row with SELECT ... FOR UPDATE.\nKeep that lock through duplicate lookup, count, insert and commit.\nUse READ COMMITTED with fresh reads AFTER acquiring the lock.\nA waiting request then sees the first request's committed seat.\nUNIQUE(workshop_id, student_id) independently rejects duplicates.\nCapacity is fixed at creation; no edit/cancel/unpublish operation in this scope.\nAn existing reservation wins over the full check and never triggers mail.\nMail is outside the transaction, so its failure cannot remove a seat.\nLEGEND: solid arrow = call/data flow; dashed arrow = type dependency.\nBlue boundary = selected component; grey = supporting components."];
-  repository -> invariant [style=invis];
+  transaction -> invariant [style=invis];
   mail -> invariant [style=invis];
 }

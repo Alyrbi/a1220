@@ -9,7 +9,7 @@ digraph Containers {
     label="Campus Workshop Board · software system boundary"; fontsize=16; color="#2563EB"; style=rounded;
     web [label="Web UI\n[Container: browser application]\nHTML / CSS / JavaScript\nDisplay authorised workshop data;\ncollect actions and show results."];
     api [fillcolor="#1D4ED8", fontcolor=white, label="Board API\n[Container: server application]\nPython / FastAPI · one deployment\nVerify identity; enforce ownership;\ncoordinate safe reservations and email.\nAlso serves Web UI static assets."];
-    db [shape=cylinder, fillcolor="#DCFCE7", color="#15803D", label="Board Database\n[Container: data store]\nPostgreSQL · persistent disk\nWorkshop: ID, owner, title, start time,\ncapacity (1–20), published flag.\nReservation: ID, workshop/student IDs,\nverified name/email, created_at.\nUnique (workshop_id, student_id)."];
+    db [shape=cylinder, fillcolor="#DCFCE7", color="#15803D", label="Board Database\n[Container: data store]\nPostgreSQL · persistent disk\nWorkshop: unique ID, owner, title, start time,\ncapacity (integer 1–20), published (initially false).\nReservation: unique ID, workshop/student IDs,\nverified name/email, created_at.\nUnique (workshop_id, student_id)."];
     web -> api [label="HTTPS · JSON + credential\nBrowse / create / publish / reserve / attendees\n← Authorised data, own reservation, result\nHTTPS also retrieves HTML/CSS/JS"];
     api -> db [label="SQL over PostgreSQL/TLS\nRead/write workshops and reservations;\ntransaction + workshop row lock\n← Stored rows / commit confirmation"];
   }

@@ -1,0 +1,22 @@
+digraph Context {
+  graph [rankdir=LR, bgcolor="white", pad=0.4, nodesep=0.65, ranksep=1.05,
+    fontname="Helvetica", fontsize=24, labelloc=t,
+    label="01 · System context\nCampus Workshop Board · AI1220 / Lab 05\nAli Alyaarbi · 25011226"];
+  node [shape=box, style="rounded,filled", fillcolor="#EAF2FF", color="#2563EB", fontname="Helvetica", fontsize=14, margin="0.22,0.16"];
+  edge [fontname="Helvetica", fontsize=12, color="#475569", arrowsize=0.8];
+  student [fillcolor="#DDEAF7", color="#334155", label="University Student\n[Person]\nBrowse published workshops;\nreserve a place and see own reservation."];
+  owner [fillcolor="#DDEAF7", color="#334155", label="Workshop Organiser\n[Person / University Student in owner role]\nCreate and publish own workshops;\nview own workshops' attendees."];
+  subgraph cluster_board {
+    label="Our team's system boundary"; fontsize=14; color="#2563EB"; style=rounded;
+    board [fillcolor="#1D4ED8", fontcolor=white, label="Campus Workshop Board\n[Software System]\nManage workshop publication and seat booking.\nPersist ownership and reservations.\nPilot: 200 university students."];
+  }
+  identity [fillcolor="#F1F5F9", color="#64748B", label="Campus Identity\n[External Software System]\nVerify university credentials;\nsupply student ID, name and email."];
+  mail [fillcolor="#F1F5F9", color="#64748B", label="University Mail\n[External Software System]\nSend reservation confirmations;\nmay be unavailable."];
+  student -> board [label="Uses board with verified identity:\nworkshop summaries, seat request,\nown reservation and result"];
+  owner -> board [label="Supplies workshop details; publishes;\nrequests attendee names/emails\n(only for workshops they own)"];
+  board -> identity [label="Verify credential\n← Verified student ID, name, email / rejected"];
+  board -> mail [label="Request new-reservation confirmation\n{email, workshop, reservation}\n← Sent / unavailable"];
+  legend [shape=note, fillcolor="#FFFBEB", color="#D97706", fontsize=12,
+    label="LEGEND\nPerson = user role; an organiser is also a student.\nBlue boundary = system owned by our team.\nGrey = external system outside our responsibility.\nArrow = interaction initiated by source; ← = response.\nOnly verified university students use protected features."];
+  {rank=same; student; owner; legend;}
+}

@@ -1,0 +1,35 @@
+digraph Components {
+  graph [rankdir=TB, bgcolor=white, pad=0.45, nodesep=0.6, ranksep=0.85,
+    fontname="Helvetica", fontsize=24, labelloc=t,
+    label="03 · Components\nParent: Board API [Container: Python / FastAPI]\nAli Alyaarbi · 25011226"];
+  node [shape=box, style="rounded,filled", fillcolor="#EAF2FF", color="#2563EB", fontname="Helvetica", fontsize=13, margin="0.19,0.14"];
+  edge [fontname="Helvetica", fontsize=11, color="#475569", arrowsize=0.8];
+  web [label="Web UI\n[Supporting container: HTML/CSS/JS]\nShow authorised results and collect actions."];
+  subgraph cluster_api {
+    label="Board API · Python / FastAPI application";
+    fontsize=16; labeljust=l; color="#2563EB"; style=rounded;
+    endpoints [label="Board Endpoints\n[Component: FastAPI routes]\nR1–R6 · Verify before routing every request.\nMap typed results to HTTP responses.\nNever trust client student/owner IDs."];
+    identity_gateway [label="Identity Gateway\n[Component: Python HTTPS adapter]\nR1, R4 · Verify every protected request.\nProduce trusted VerifiedStudent or Unverified.\nUnverified stops before domain calls."];
+    workshop [label="Workshop Service\n[Component: Python service]\nR2, R3, R5 · create / publish / browse / attendees\nGenerate ID; owner = verified student ID.\nRequire title.trim() nonempty, start_time, capacity 1–20.\nOnly owner publishes or reads attendees.\nPublishing creates no reservation."];
+    reservation [fillcolor="#1D4ED8", fontcolor=white,
+      label="Reservation Rules\n[Component: Python service]\nR4–R6 · reserve(identity, workshop_id)\nReject unverified; return repeat unchanged first.\nCheck published and capacity inside one lock.\nEmail only after committing a new seat."];
+    repository [label="Board Repository\n[Component: Python / psycopg]\nR2–R5 · Persistent reads/writes\nREAD COMMITTED transaction; lock workshop\nbefore fresh reads, seat count and insert.\nEvery reservation writer uses this lock."];
+    mail_gateway [label="Mail Gateway\n[Component: Python HTTPS adapter]\nR6 · sendConfirmation(email, reservation, workshop)\nReturn Sent or Unavailable (error/timeout).\nOne attempt; never undo a saved seat."];
+    endpoints -> identity_gateway [label="verify(credential)\n← VerifiedStudent{id,name,email} | Unverified\nRun before Workshop Service / Reservation Rules"];
+    endpoints -> workshop [label="create(verified, title, start_time, capacity)\npublish / attendees(verified, workshop_id)\nbrowse(verified) → WorkshopSummary[]\n← Workshop / attendee list / forbidden"];
+    endpoints -> reservation [label="reserve(verified, workshop_id)\n← Created(reservation,email) | Existing\n| Rejected(reason)"];
+    workshop -> repository [label="save Workshop; publish if owner matches\nread published summaries + own reservation\nread attendees only after owner check\n← Stored data / rejected"];
+    reservation -> repository [label="begin; lockWorkshop(id); findExisting(id,student)\ncountSeats(id); insert(verified profile); commit\n← Workshop / Reservation? / count / committed"];
+    reservation -> mail_gateway [label="New + committed only:\nsendConfirmation(email, reservation, workshop)\n← Sent | Unavailable"];
+  }
+  identity [fillcolor="#F1F5F9", color="#64748B", label="Campus Identity\n[External Software System]\nVerify university identity."];
+  mail [fillcolor="#F1F5F9", color="#64748B", label="University Mail\n[External Software System]\nSend confirmation email."];
+  db [shape=cylinder, fillcolor="#DCFCE7", color="#15803D", label="Board Database\n[Supporting container: PostgreSQL]\nPersist Workshop + Reservation.\nUNIQUE(workshop_id, student_id); foreign keys.\nCHECK capacity 1–20; nonempty title; required fields."];
+  web -> endpoints [label="HTTPS/JSON + credential\nWorkshop actions; ← authorised DTOs / messages"];
+  identity_gateway -> identity [label="HTTPS/JSON: credential\n← verified id/name/email or rejected"];
+  repository -> db [label="PostgreSQL/TLS · SQL queries + transaction\nSELECT workshop FOR UPDATE; fresh seat reads\nINSERT / COMMIT; ← rows / acknowledgement"];
+  mail_gateway -> mail [label="HTTPS/JSON: recipient email,\nreservation ID + workshop title/time\n← accepted / unavailable"];
+  legend [shape=note, fillcolor="#FFFBEB", color="#D97706", fontsize=12,
+    label="LEGEND / INTERFACE DATA\nBlue boxes = components inside one Board API process.\nInternal arrows = Python calls; ← = returned data.\nGrey = external systems; green = persistent store.\nVerifiedStudent = trusted {student_id, name, email}.\nWorkshopSummary = {id,title,start_time,capacity,remaining,own_reservation}.\nAttendee = {name,email}; only the workshop owner can request it.\nRemaining = capacity − stored count (one consistent query snapshot).\nAuthentication failure → 401; wrong owner → 403.\nR1–R6 refer to the customer rules on the student sheet."];
+  {rank=same; web; legend;}
+}

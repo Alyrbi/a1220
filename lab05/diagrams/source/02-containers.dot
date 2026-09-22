@@ -1,0 +1,24 @@
+digraph Containers {
+  graph [rankdir=LR, bgcolor=white, pad=0.4, nodesep=0.55, ranksep=1,
+    fontname="Helvetica", fontsize=24, labelloc=t,
+    label="02 · Containers\nParent: Campus Workshop Board [Software System]\nAli Alyaarbi · 25011226"];
+  node [shape=box, style="rounded,filled", fillcolor="#EAF2FF", color="#2563EB", fontname="Helvetica", fontsize=14, margin="0.20,0.15"];
+  edge [fontname="Helvetica", fontsize=12, color="#475569", arrowsize=0.8];
+  person [fillcolor="#DDEAF7", color="#334155", label="University Student / Workshop Organiser\n[Person]\nBrowse, reserve, create and publish;\nsee attendees only for own workshop."];
+  subgraph cluster_board {
+    label="Campus Workshop Board · software system boundary"; fontsize=16; color="#2563EB"; style=rounded;
+    web [label="Web UI\n[Container: browser application]\nHTML / CSS / JavaScript\nDisplay authorised workshop data;\ncollect actions and show results."];
+    api [fillcolor="#1D4ED8", fontcolor=white, label="Board API\n[Container: server application]\nPython / FastAPI · one deployment\nVerify identity; enforce ownership;\ncoordinate safe reservations and email.\nAlso serves Web UI static assets."];
+    db [shape=cylinder, fillcolor="#DCFCE7", color="#15803D", label="Board Database\n[Container: data store]\nPostgreSQL · persistent disk\nWorkshop: ID, owner, title, start time,\ncapacity (1–20), published flag.\nReservation: ID, workshop/student IDs,\nverified name/email, created_at.\nUnique (workshop_id, student_id)."];
+    web -> api [label="HTTPS · JSON + credential\nBrowse / create / publish / reserve / attendees\n← Authorised data, own reservation, result\nHTTPS also retrieves HTML/CSS/JS"];
+    api -> db [label="SQL over PostgreSQL/TLS\nRead/write workshops and reservations;\ntransaction + workshop row lock\n← Stored rows / commit confirmation"];
+  }
+  identity [fillcolor="#F1F5F9", color="#64748B", label="Campus Identity\n[External Software System]\nVerify credential → student ID/name/email\nHTTPS/JSON adapter contract (assumed)"];
+  mail [fillcolor="#F1F5F9", color="#64748B", label="University Mail\n[External Software System]\nConfirmation request → Sent / Unavailable\nHTTPS/JSON adapter contract (assumed)"];
+  person -> web [label="Browser interaction:\ncredential and workshop actions\n← Workshop pages / messages"];
+  api -> identity [label="HTTPS/JSON: verify(credential)\n← Trusted identity / rejected"];
+  api -> mail [label="HTTPS/JSON: send(email, reservation, workshop)\nOnly after a new reservation commits\n← Sent / unavailable; no automatic retry"];
+  legend [shape=note, fillcolor="#FFFBEB", color="#D97706", fontsize=12,
+    label="LEGEND / DESIGN CHOICE\nBlue = application; green cylinder = persistent data.\nGrey = external system; arrow label = mechanism + data.\nOne Python backend is manageable for a small team\nand 200 students; PostgreSQL serialises seat writes.\nExternal protocols are design assumptions, not supplied APIs.\nRefresh queries stored data; browser state is not authoritative."];
+  {rank=same; person; legend;}
+}

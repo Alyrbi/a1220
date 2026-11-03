@@ -1,0 +1,1 @@
+- **AC2 — Charge AED 2 for each day or part of a day late:** For input `1` minute, the code returns **AED 0**; the required fee is **AED 2**.

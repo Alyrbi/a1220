@@ -1,0 +1,8 @@
+AI-assisted lab completion on 3 November 2026.
+Two separate CLI parent sessions requested the custom tester and reviewer agents by name, using the tester and reviewer profiles respectively. Approval policy was never; no unsandboxed execution was requested or allowed. Each agent parent reported its custom subagent's completion. No tester implementation context or test results were included in the reviewer's request.
+
+The first tester attempt used --ephemeral and failed to spawn its child because the CLI could not find its own thread rollout. No test file was created in that attempt. The second attempt used the normal CLI session store and succeeded. The resulting five tests were checked against the five requirements examples, with no corrections needed. The tester did not execute them. The supervising workflow then ran unittest in the normal terminal and committed the tests. A fresh reviewer session read only the permitted requirements, rules and implementation and returned the AC2 finding. Raw session/event files remain outside the repository and are not submission artifacts.
+
+The implementation uses floor division by 1440, so partial days below the fee cap are undercharged. AC1's zero-minute case and AC3's cap example pass. Keep the supplied code unchanged for this evidence lab; a future teammate fix should round positive partial days up and rerun the same independent tests.
+
+Instructor-version confirmation remains outstanding; no exact build was included with the provided files. The installed build passed all prescribed sandbox checks after trusting the repository. The application's CLI location differs from the sheet and is recorded in sandbox-checks.txt.

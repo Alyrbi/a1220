@@ -1,0 +1,26 @@
+test_on_time_costs_zero (test_fees.LateFeeTests) ... ok
+test_one_day_and_one_minute_late_costs_four (test_fees.LateFeeTests) ... FAIL
+test_one_day_late_costs_two (test_fees.LateFeeTests) ... ok
+test_one_minute_late_costs_two (test_fees.LateFeeTests) ... FAIL
+test_thirty_days_late_costs_twenty (test_fees.LateFeeTests) ... ok
+
+======================================================================
+FAIL: test_one_day_and_one_minute_late_costs_four (test_fees.LateFeeTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ali.yaarobi/a1220/lab06/tests/test_fees.py", line 17, in test_one_day_and_one_minute_late_costs_four
+    self.assertEqual(late_fee(1441), 4)
+AssertionError: 2 != 4
+
+======================================================================
+FAIL: test_one_minute_late_costs_two (test_fees.LateFeeTests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/Users/ali.yaarobi/a1220/lab06/tests/test_fees.py", line 11, in test_one_minute_late_costs_two
+    self.assertEqual(late_fee(1), 2)
+AssertionError: 0 != 2
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.000s
+
+FAILED (failures=2)

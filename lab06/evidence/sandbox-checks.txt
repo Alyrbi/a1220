@@ -1,0 +1,124 @@
+Codex version: codex-cli 0.160.1
+Tester reads AGENTS.md and REQUIREMENTS.md: PASS
+Tester writes tests/check.txt: PASS
+Tester cannot read fees.py or README.md: PASS
+Tester cannot change fees.py: PASS
+Tester cannot reach example.com: PASS
+Reviewer reads AGENTS.md and fees.py: PASS
+Reviewer cannot read tests/check.txt: PASS
+Reviewer cannot change fees.py: PASS
+
+Observed on 3 November 2026, using /Applications/Codex.app/Contents/Resources/codex-cli/bin/codex.
+The sheet's ChatGPT.app CLI path does not exist on this installation; the CLI is bundled in Codex.app.
+The exact instructor-announced build was not supplied and has not been confirmed; these are actual local checks, not confirmation of the instructor's supported version.
+
+Before folder trust was established, project permissions were not loaded and commands failed during configuration resolution. After the normal trust step, the exact sheet commands work: tester uses the default profile without -P, reviewer uses -P reviewer. No wider sandbox permissions were granted.
+
+Tester reads AGENTS.md
+$ codex sandbox -- cat AGENTS.md
+Exit code: 0
+Observed output:
+# Lab 06 project rules
+
+- `REQUIREMENTS.md` is the source of truth for the acceptance criteria. Keep it and the supplied `fees.py` unchanged: this lab evaluates the teammate's code rather than fixing it.
+- Tests use Python's standard-library `unittest`, live in `tests/`, and import the function with `from fees import late_fee`.
+- Run tests from `lab06/` with `python3 -m unittest discover -s tests`.
+- Use only the standard library. Test only supported inputs: whole numbers of minutes, zero or more.
+- Use separate custom-agent sessions for the independent checks. In the tester permission profile, spawn the `tester` custom agent; in the reviewer permission profile, spawn the `reviewer` custom agent. Do not pass the implementation or reviewer findings to the tester, or the tests/results to the reviewer.
+- Keep each persona's starting permissions. Never request or use an unsandboxed command or broader permissions to complete its work.
+- Tester: read `REQUIREMENTS.md` and write `tests/test_fees.py`; do not read the implementation and do not run tests. Stop once the test file exists.
+- Reviewer: read `REQUIREMENTS.md` and `fees.py`; change nothing. Return only criterion violations with an input, actual fee and required fee, then stop.
+- Record observed results honestly. A failing test is evidence; do not change it to match incorrect code. Do not commit session files or `tests/check.txt`.
+
+Tester reads REQUIREMENTS.md
+$ codex sandbox -- cat REQUIREMENTS.md
+Exit code: 0
+Observed output:
+# Late fee for laptop loans
+
+The campus library lends laptops. When a laptop comes back, the loan system calls
+`late_fee(minutes_late)` from `fees.py`.
+
+- `minutes_late` is a whole number of minutes, 0 or more. A laptop returned on time
+  or early has `minutes_late` equal to 0.
+- `late_fee` returns the fee in AED as a whole number.
+
+## Acceptance criteria
+
+**AC1.** A laptop returned on time costs nothing. Example: 0 minutes late costs 0.
+
+**AC2.** A late laptop costs AED 2 for each day or part of a day that it is late.
+One day is 1440 minutes. Examples: 1 minute late costs 2; 1440 minutes late costs 2;
+1441 minutes late costs 4.
+
+**AC3.** The fee is never more than AED 20 per loan. Example: 30 days late
+(43200 minutes) costs 20.
+
+Tester writes tests/check.txt
+$ codex sandbox -- sh -c 'echo x > tests/check.txt && cat tests/check.txt'
+Exit code: 0
+Observed output:
+x
+
+Tester cannot read fees.py
+$ codex sandbox -- cat fees.py
+Exit code: 1
+Observed output:
+cat: fees.py: Operation not permitted
+
+Tester cannot read README.md
+$ codex sandbox -- cat README.md
+Exit code: 1
+Observed output:
+cat: README.md: Operation not permitted
+
+Tester cannot change fees.py
+$ codex sandbox -- sh -c 'echo x >> fees.py'
+Exit code: 1
+Observed output:
+sh: fees.py: Operation not permitted
+
+Tester cannot reach example.com
+$ codex sandbox -- curl -sS https://example.com
+Exit code: 6
+Observed output:
+curl: (6) Could not resolve host: example.com
+
+Reviewer reads AGENTS.md
+$ codex sandbox -P reviewer -- cat AGENTS.md
+Exit code: 0
+Observed output:
+# Lab 06 project rules
+
+- `REQUIREMENTS.md` is the source of truth for the acceptance criteria. Keep it and the supplied `fees.py` unchanged: this lab evaluates the teammate's code rather than fixing it.
+- Tests use Python's standard-library `unittest`, live in `tests/`, and import the function with `from fees import late_fee`.
+- Run tests from `lab06/` with `python3 -m unittest discover -s tests`.
+- Use only the standard library. Test only supported inputs: whole numbers of minutes, zero or more.
+- Use separate custom-agent sessions for the independent checks. In the tester permission profile, spawn the `tester` custom agent; in the reviewer permission profile, spawn the `reviewer` custom agent. Do not pass the implementation or reviewer findings to the tester, or the tests/results to the reviewer.
+- Keep each persona's starting permissions. Never request or use an unsandboxed command or broader permissions to complete its work.
+- Tester: read `REQUIREMENTS.md` and write `tests/test_fees.py`; do not read the implementation and do not run tests. Stop once the test file exists.
+- Reviewer: read `REQUIREMENTS.md` and `fees.py`; change nothing. Return only criterion violations with an input, actual fee and required fee, then stop.
+- Record observed results honestly. A failing test is evidence; do not change it to match incorrect code. Do not commit session files or `tests/check.txt`.
+
+Reviewer reads fees.py
+$ codex sandbox -P reviewer -- cat fees.py
+Exit code: 0
+Observed output:
+def late_fee(minutes_late):
+    """Return the late fee in AED for a laptop returned minutes_late minutes late."""
+    days = minutes_late // 1440
+    return min(2 * days, 20)
+
+Reviewer cannot read tests/check.txt
+$ codex sandbox -P reviewer -- cat tests/check.txt
+Exit code: 1
+Observed output:
+cat: tests/check.txt: Operation not permitted
+
+Reviewer cannot change fees.py
+$ codex sandbox -P reviewer -- sh -c 'echo x >> fees.py'
+Exit code: 1
+Observed output:
+sh: fees.py: Operation not permitted
+
+Cleanup: tests/check.txt removed. fees.py and REQUIREMENTS.md match the supplied files byte-for-byte. No Codex session files are submitted.

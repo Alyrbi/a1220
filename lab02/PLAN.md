@@ -24,8 +24,16 @@ Verdict: Use short, two-week increments with technician feedback because key ope
 
 | Milestone | When | What is true then |
 |---|---|---|
+| Confirm the operating rules | 6 November 2026 | A written brief records borrower eligibility, loan periods, inventory identifiers and the technician's review availability, with unresolved assumptions listed. |
+| Sprint 1 demonstration | 20 November 2026 | The three selected Sprint 1 items pass their saved checks using fictional data and a technician feedback note is attached. |
+| Controlled pilot readiness | 4 December 2026 | Staff-only access and restart recovery checks pass; ten fictional loans reconcile exactly with the demonstration register. |
+| Pilot review and release decision | 18 December 2026 | The technician has reviewed the pilot's custody discrepancies and overdue-loan list, and a written accept/revise decision states whether the manual register can be retired. |
 
 ## Risks
 
 | Risk | Likelihood | Mitigation |
 |---|---|---|
+| Inventory labels are duplicated or missing, linking a loan to the wrong physical item. | Medium | Audit 20 sample items with the technician before the first demo; record missing labels and require one unique inventory identifier per item. |
+| The technician cannot provide timely feedback, leaving loan rules unverified. | Medium | Request a named backup reviewer and a weekly review slot before Sprint 1; keep unresolved rules explicit and limit the increment to fictional-data demonstrations until reviewed. |
+| Real borrower details are exposed during an early demonstration. | Medium | Use fictional borrowers only; make staff-only access checks a pilot gate and review the demo data before sharing it. |
+| A rollout loses acknowledged loans or disagrees with the existing register. | Low likelihood, high impact | Keep the current register authoritative during the pilot; reconcile ten records and test restart recovery before considering replacement. |

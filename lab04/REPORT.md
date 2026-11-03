@@ -114,7 +114,7 @@ Observed result: missing/invalid artists and titles each produced HTTP 400 with 
 
 ## Submission
 
-- Final code/report commit: the commit named `Complete lab04 playlist`; its hash will be recorded in a subsequent evidence commit because a commit cannot contain its own hash.
+- Final code/report commit: `761436e9bfcfec79d4acd97451e9ed99e40aee29` (`Complete lab04 playlist`), recorded in this subsequent evidence commit.
 - Files reviewed: `backend.py`, `index.html`, `REPORT.md`, `README.md`, `.gitignore`, plus the supplied lab sheet. Only the marked Python function, the marked JavaScript function and visible heading were changed in application code. The README's completion checklist was updated to reflect the checks above.
 - Push and GitHub verification: recorded after the push in the submission follow-up.
 - Optional stretch: not attempted; required functionality is complete.

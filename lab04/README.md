@@ -136,7 +136,7 @@ Windows Git Bash. Use a second terminal while the server is running.
 ## Finish the lab
 
 - [x] Keep the five required files in `ai1220/lab04/`.
-- [ ] Review and commit the remaining changes in those files with the message
+- [x] Review and commit the remaining changes in those files with the message
   `Complete lab04 playlist`, preserving other work.
 - [ ] Use your existing terminal workflow to run `git push` from the repository
   root before the session ends, then verify the files on GitHub.

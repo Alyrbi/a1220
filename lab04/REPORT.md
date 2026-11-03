@@ -116,5 +116,5 @@ Observed result: missing/invalid artists and titles each produced HTTP 400 with 
 
 - Final code/report commit: `761436e9bfcfec79d4acd97451e9ed99e40aee29` (`Complete lab04 playlist`), recorded in this subsequent evidence commit.
 - Files reviewed: `backend.py`, `index.html`, `REPORT.md`, `README.md`, `.gitignore`, plus the supplied lab sheet. Only the marked Python function, the marked JavaScript function and visible heading were changed in application code. The README's completion checklist was updated to reflect the checks above.
-- Push and GitHub verification: recorded after the push in the submission follow-up.
+- Push and GitHub verification: pushed to `origin/main` on 3 November 2026. Remote `refs/heads/main` was verified as `60978de9d1543675572eeff4d0d39e77a47a34c2`, containing this lab and its completion commit. All six lab04 files were confirmed in that tracked tree.
 - Optional stretch: not attempted; required functionality is complete.

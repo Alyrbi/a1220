@@ -24,9 +24,9 @@ Verdict: Use short, two-week increments with technician feedback because key ope
 
 | Milestone | When | What is true then |
 |---|---|---|
-| Confirm the operating rules | 6 November 2026 | A written brief records borrower eligibility, loan periods, inventory identifiers and the technician's review availability, with unresolved assumptions listed. |
+| Confirm the operating rules | 6 November 2026 | A written brief records borrower eligibility, loan periods, inventory identifiers, the exam start date and the technician's review availability, with unresolved assumptions listed. |
 | Sprint 1 demonstration | 20 November 2026 | The three selected Sprint 1 items pass their saved checks using fictional data and a technician feedback note is attached. |
-| Controlled pilot readiness | 4 December 2026 | Staff-only access and restart recovery checks pass; ten fictional loans reconcile exactly with the demonstration register. |
+| Controlled pilot readiness | 4 December 2026 | Return tracking, staff-only access and restart recovery checks pass; ten fictional loans reconcile exactly with the demonstration register. |
 | Pilot review and release decision | 18 December 2026 | The technician has reviewed the pilot's custody discrepancies and overdue-loan list, and a written accept/revise decision states whether the manual register can be retired. |
 
 ## Risks
